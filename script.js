@@ -1871,7 +1871,7 @@ document.addEventListener("DOMContentLoaded", function () {
       this.updateCurrentQuestion();
       this.displayQuestion();
       this.isAnswerDisplayed = false;
-      document.getElementById("showAnswerButton").textContent = "show answer";
+      document.getElementById("showAnswerButton").textContent = "הצג תשובה";
       this.randomQuestions.push(randomIndex);
       this.updateProgressBar();
     },
@@ -1904,7 +1904,7 @@ document.addEventListener("DOMContentLoaded", function () {
       event.preventDefault();
       FastCodeLearningCompiler.restartQuestions();
       const submitButton = document.getElementById("showAnswerButton");
-      submitButton.textContent = "show answer";
+      submitButton.textContent = "הצג תשובה";
     });
 
   document
@@ -1916,11 +1916,11 @@ document.addEventListener("DOMContentLoaded", function () {
         textarea.value +=
           "\n\n" + FastCodeLearningCompiler.currentAnswerToQuestion;
         FastCodeLearningCompiler.isAnswerDisplayed = true;
-        submitButton.textContent = "hide answer";
+        submitButton.textContent = "הסתר תשובה";
       } else {
         textarea.value = FastCodeLearningCompiler.currentQuestion;
         FastCodeLearningCompiler.isAnswerDisplayed = false;
-        submitButton.textContent = "show answer";
+        submitButton.textContent = "הצג תשובה";
       }
     });
 
@@ -1934,8 +1934,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else {
           FastCodeLearningCompiler.updateNextQuestion();
           FastCodeLearningCompiler.isAnswerDisplayed = false;
-          document.getElementById("showAnswerButton").textContent =
-            "show answer";
+          document.getElementById("showAnswerButton").textContent = "הצג תשובה";
         }
       }
     });
@@ -1945,7 +1944,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .addEventListener("click", function (event) {
       event.preventDefault();
       FastCodeLearningCompiler.updatePreviousQuestion();
-      document.getElementById("showAnswerButton").textContent = "show answer";
+      document.getElementById("showAnswerButton").textContent = "הצג תשובה";
     });
 
   document
@@ -1954,7 +1953,7 @@ document.addEventListener("DOMContentLoaded", function () {
       event.preventDefault();
       FastCodeLearningCompiler.switchToNextSubject();
       FastCodeLearningCompiler.isAnswerDisplayed = false;
-      document.getElementById("showAnswerButton").textContent = "show answer";
+      document.getElementById("showAnswerButton").textContent = "הצג תשובה";
     });
 
   document.getElementById("random").addEventListener("click", function () {
@@ -1965,7 +1964,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("byOrder").addEventListener("click", function () {
     FastCodeLearningCompiler.isRandom = false;
     FastCodeLearningCompiler.restartQuestions();
-    document.getElementById("showAnswerButton").textContent = "show answer";
+    document.getElementById("showAnswerButton").textContent = "הצג תשובה";
   });
 
   // Initial call to set the question counter

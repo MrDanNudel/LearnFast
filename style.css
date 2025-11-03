@@ -76,7 +76,7 @@ h1:hover {
 
 textarea {
   width: 800px; /* Full width of the container */
-  height: 500px; /* Adjust height as needed */
+  height: 400px; /* Adjust height as needed */
   text-align: center;
   font-size: 20px; /* Larger font size for readability */
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; /* Modern font */
@@ -108,7 +108,7 @@ textarea::placeholder {
 
 progress {
   width: 800px; /* Full width of the progress-bar container */
-  height: 7px;
+  height: 10px;
   border: none;
   border-radius: 5px;
   background-color: #333; /* Dark background for the progress bar */
@@ -119,8 +119,8 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-  background-color: #e3ff45; /* Blue progress indicator */
-  border-radius: 5px;
+  background-color: #044758; /* Blue progress indicator */
+  border-radius: 3px;
 }
 
 /* Button Container Styles */
@@ -138,33 +138,34 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #007bff; /* Blue button background */
+  background-color: #4b6f7e; /* Blue button background */
   color: #ffffff; /* White text color */
   transition: background-color 0.3s ease, transform 0.3s ease;
   margin: 5px;
 }
 
 button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #6a7c8f; /* Darker blue on hover */
   transform: scale(1.05);
 }
 
 #nextSubjectButton {
-  background-color: #28a745; /* Green button */
+  background-color: #8d6aee; /* Green button */
+  width: 200px;
 }
 
 #nextSubjectButton:hover {
-  background-color: #218838; /* Darker green on hover */
+  background-color: #7270d1; /* Darker green on hover */
 }
 
 #showAnswerButton {
-  background-color: #f85641; /* Gray button */
+  background-color: #8d6aee; /* Gray button */
   width: 180px;
   height: 50px;
 }
 
 #showAnswerButton:hover {
-  background-color: #893025; /* Darker gray on hover */
+  background-color: #7270d1; /* Darker gray on hover */
 }
 
 /* Option and Message Styles */
@@ -190,7 +191,7 @@ label {
 }
 
 input[type="radio"]:checked + label {
-  background-color: #007bff; /* Blue background when selected */
+  background-color: #7270d1; /* Blue background when selected */
   color: #fff; /* White text color */
 }
 
@@ -204,7 +205,7 @@ input[type="radio"]:checked + label {
 #message {
   background-color: #ffffff; /* Dark background */
   color: #000000; /* Light text color */
-  font-size: 2.4em;
+  font-size: 2em;
   letter-spacing: 0.08rem;
 }
 
