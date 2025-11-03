@@ -6,7 +6,6 @@ html {
   height: 100%;
   font-family: Arial, sans-serif;
   color: #fafcff; /* Light text color for better readability */
-  background-image: url("./pic/background.jpeg");
   background-size: cover; /* שהרקע ימלא את כל המסך */
   background-position: left; /* שהתמונה תהיה ממורכזת */
   background-repeat: no-repeat; /* שלא תחזור על עצמה */
