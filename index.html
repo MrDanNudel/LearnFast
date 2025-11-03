@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Fast Learning Home Page</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <!-- Existing subject buttons -->
+      <button
+        id="htmlButton"
+        class="subject-button"
+        data-subject-index="0"
+        data-subject-name="html"
+      >
+        כימיה
+      </button>
+      <button
+        id="cssButton"
+        class="subject-button"
+        data-subject-index="1"
+        data-subject-name="css"
+      >
+        CSS
+      </button>
+      <button
+        id="jsButton"
+        class="subject-button"
+        data-subject-index="2"
+        data-subject-name="javascript"
+      >
+        JavaScript
+      </button>
+      <button
+        id="sqlButton"
+        class="subject-button"
+        data-subject-index="3"
+        data-subject-name="sql"
+      >
+        SQL
+      </button>
+      <button
+        id="javaButton"
+        class="subject-button"
+        data-subject-index="4"
+        data-subject-name="java"
+      >
+        Java
+      </button>
+      <button
+        id="springBootButton"
+        class="subject-button"
+        data-subject-index="5"
+        data-subject-name="springboot"
+      >
+        Spring Boot
+      </button>
+      <button
+        id="jobInterviewButton"
+        class="subject-button"
+        data-subject-index="6"
+        data-subject-name="jobinterview"
+      >
+        Job Interview Questions
+      </button>
+      <button
+        id="networkButton"
+        class="subject-button"
+        data-subject-index="7"
+        data-subject-name="network"
+      >
+        Network
+      </button>
+      <button
+        id="cmdCommandsButton"
+        class="subject-button"
+        data-subject-index="8"
+        data-subject-name="cmdCommands"
+      >
+        CMD Commands
+      </button>
+    </div>
+
+    <div class="container">
+      <h1>בדיקת ידע קמפוס ווינגיט</h1>
+      <!-- New section for displaying current subject -->
+      <div id="currentSubject"></div>
+      <div id="questionCounter">Question 1</div>
+
+      <div id="options">
+        <input type="radio" id="byOrder" name="option" checked />
+        <label for="byOrder">By Order</label>
+        <input type="radio" id="random" name="option" />
+        <label for="random">Random</label>
+      </div>
+      <div class="secondContainer">
+        <form>
+          <textarea id="message" readonly></textarea>
+          <img
+            id="image"
+            src="picsForFast\html-structure.png"
+            alt="HTML Page Structure"
+            style="display: none"
+          />
+
+          <div class="progress-bar">
+            <progress id="progressBar" max="100" value="0"></progress>
+          </div>
+          <div class="button-container">
+            <button type="button" id="startOverButton">Start Over</button>
+            <button type="submit" id="showAnswerButton">Show Answer</button>
+            <button type="button" id="prevQuestionButton">Previous</button>
+            <button type="button" id="nextQuestionButton">Next Question</button>
+            <button type="button" id="nextSubjectButton">Next Subject</button>
+            <!-- New button -->
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
