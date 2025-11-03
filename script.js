@@ -1524,135 +1524,152 @@ document.addEventListener("DOMContentLoaded", function () {
       ],
     },
     {
-      subject: "cmdCommands",
+      subject: "יסודות בריקודי עם ועמים\u200F",
       questions: [
         {
-          question: "ipconfig",
-          answer: `Displays IP configuration information.\n\nExample:\nipconfig`,
+          question: "מהם ריקודי עם?\u200F",
+          answer:
+            "ריקודים מסורתיים שנוצרו מתוך התרבות המקומית של עם או קהילה, ומועברים מדור לדור.\u200F",
         },
         {
-          question: "ping",
-          answer: `Sends network packets to a specified IP address to test connectivity.\n\nExample:\nping www.google.com`,
+          question: "מה ההבדל בין ריקודי עם לריקודי עמים?\u200F",
+          answer:
+            "ריקודי עם מתייחסים לריקודים של עם אחד (כמו ישראל), וריקודי עמים כוללים מסורות ממדינות ותרבויות שונות בעולם.\u200F",
         },
         {
-          question: "dir",
-          answer: `Displays a list of files and directories in the current directory.\n\nExample:\ndir`,
+          question: "מה מטרתם של ריקודי עם?\u200F",
+          answer:
+            "לשמר תרבות, לחזק זהות קהילתית ולעודד חוויה משותפת של שמחה ותנועה.\u200F",
         },
         {
-          question: "cd",
-          answer: `Changes the current directory.\n\nExample:\ncd C:\\Windows`,
+          question: "מהו מבנה מעגל בריקודי עם?\u200F",
+          answer:
+            "הרוקדים עומדים במעגל סגור, פנים למרכז, ומבצעים תנועות אחידות לפי קצב המוזיקה.\u200F",
         },
         {
-          question: "mkdir",
-          answer: `Creates a new directory.\n\nExample:\nmkdir newfolder`,
+          question: "מהם סוגי הסידורים בריקודי עם?\u200F",
+          answer:
+            "מעגל, שורה, זוגות ורביעיות — בהתאם לסגנון הריקוד והמסורת התרבותית.\u200F",
         },
         {
-          question: "rmdir",
-          answer: `Removes a directory.\n\nExample:\nrmdir oldfolder`,
+          question: "מהי חשיבות הקצב בריקוד?\u200F",
+          answer:
+            "הקצב מכתיב את מהירות התנועות ומשמש כבסיס לסנכרון בין המוזיקה לרוקדים.\u200F",
         },
         {
-          question: "del",
-          answer: `Deletes one or more files.\n\nExample:\ndel file.txt`,
+          question: "מהי תבנית תנועה?\u200F",
+          answer:
+            "רצף קבוע של צעדים או תנועות שחוזר במחזוריות לאורך הריקוד.\u200F",
         },
         {
-          question: "copy",
-          answer: `Copies files from one location to another.\n\nExample:\ncopy file.txt D:\\destination`,
+          question: "מהם צעדי היסוד הנפוצים בריקודי עם?\u200F",
+          answer:
+            "צעד חילוף, צעדת ריצה, סיכול, פתיחה וסגירה, קפיצה וסיבוב.\u200F",
         },
         {
-          question: "move",
-          answer: `Moves files from one location to another.\n\nExample:\nmove file.txt D:\\destination`,
+          question: "מהו צעד חילוף?\u200F",
+          answer:
+            "שלושה צעדים רצופים — ימין, שמאל, ימין (או להפך) — לעיתים עם דגש בקצה הרצף.\u200F",
         },
         {
-          question: "rename",
-          answer: `Renames a file or directory.\n\nExample:\nrename oldname.txt newname.txt`,
+          question: "מה משמעות הידיים בריקודי עם?\u200F",
+          answer:
+            "הן משמשות ליצירת קשר בין הרוקדים, לשיווי משקל ולהבעה רגשית של הריקוד.\u200F",
         },
         {
-          question: "tasklist",
-          answer: `Displays a list of currently running processes.\n\nExample:\ntasklist`,
+          question: "מהם מאפייני ריקודי העם הישראלים?\u200F",
+          answer:
+            "שילוב של סגנונות ממזרח ומערב, ביטוי לשורשים יהודיים־חלוציים ושימוש במעגל כצורה מרכזית.\u200F",
         },
         {
-          question: "taskkill",
-          answer: `Terminates a process by its process ID.\n\nExample:\ntaskkill /PID 1234`,
+          question: "מהו ריקוד שורות?\u200F",
+          answer:
+            "ריקוד שבו הרוקדים עומדים בשורות מקבילות ומבצעים תנועות אחידות לפי המוזיקה.\u200F",
         },
         {
-          question: "systeminfo",
-          answer: `Displays detailed configuration information about the computer and operating system.\n\nExample:\nsysteminfo`,
+          question: "מהם ריקודי זוגות?\u200F",
+          answer:
+            "ריקודים שבהם כל זוג מבצע יחד תנועות תואמות תוך שמירה על קשר ידיים או מבט.\u200F",
         },
         {
-          question: "chkdsk",
-          answer: `Checks the disk for errors and repairs them.\n\nExample:\nchkdsk C:`,
+          question: "מה ההבדל בין ריקוד מעגל לריקוד שורה?\u200F",
+          answer:
+            "בריקוד מעגל הרוקדים פונים למרכז המעגל, ובריקוד שורה כולם פונים לכיוון אחד אחיד.\u200F",
         },
         {
-          question: "sfc /scannow",
-          answer: `Scans the system files for integrity violations and repairs them.\n\nExample:\nsfc /scannow`,
+          question: "מהו סיבוב בריקוד?\u200F",
+          answer:
+            "תנועה מעגלית סביב הציר העצמי של הרוקד, בדרך כלל עם שינוי כיוון או הדגשה מוזיקלית.\u200F",
         },
         {
-          question: "netstat",
-          answer: `Displays network connections, routing tables, and network interface statistics.\n\nExample:\nnetstat`,
+          question: "מהו הקשר בין מוזיקה לריקוד?\u200F",
+          answer:
+            "המוזיקה מכתיבה את הקצב, הרגש והאופי של הריקוד — מהריקוד השמח ועד לריקוד איטי ומלנכולי.\u200F",
         },
         {
-          question: "tracert",
-          answer: `Traces the route taken by packets to a destination.\n\nExample:\ntracert www.google.com`,
+          question: "מהם ריקודי עמים ידועים בעולם?\u200F",
+          answer:
+            "הפלמנקו מספרד, ההורה מרומניה, הסמבה מברזיל, ההולה מהוואי והטנגו מארגנטינה.\u200F",
         },
         {
-          question: "shutdown",
-          answer: `Shuts down or restarts the computer.\n\nExample:\nshutdown /s /t 0`,
+          question:
+            "מה ההבדל בין סגנונות הריקוד העממיים באירופה למזרח התיכון?\u200F",
+          answer:
+            "ריקודים אירופיים נוטים להיות מבניים ומדויקים, בעוד ריקודי המזרח מבוססים על אלתור והבעה רגשית.\u200F",
         },
         {
-          question: "cls",
-          answer: `Clears the command prompt screen.\n\nExample:\ncls`,
+          question: "מהי חשיבות שפת הגוף בריקוד?\u200F",
+          answer:
+            "שפת הגוף מבטאת רגש, קצב וזהות תרבותית; היא הופכת את הריקוד לבעל משמעות עמוקה יותר.\u200F",
         },
         {
-          question: "echo",
-          answer: `Displays a message or turns command echoing on or off.\n\nExample:\necho Hello World`,
+          question: "מהי ריקוד חינוכי בבתי ספר?\u200F",
+          answer:
+            "שילוב ריקודי עם בתכניות חינוך גופני לפיתוח קואורדינציה, ביטוי עצמי, שייכות ושמחת תנועה.\u200F",
         },
         {
-          question: "set",
-          answer: `Displays, sets, or removes environment variables.\n\nExample:\nset PATH=C:\\Windows`,
+          question: "כיצד מלמדים ריקודי עם לתלמידים?\u200F",
+          answer:
+            "באמצעות דוגמה חזותית, תרגול מדורג, הקשבה למוזיקה ושילוב משחקים להנאה ולשיתוף פעולה.\u200F",
         },
         {
-          question: "assoc",
-          answer: `Displays or modifies file extension associations.\n\nExample:\nassoc .txt`,
+          question: "מה הקשר בין ריקוד לזהות לאומית?\u200F",
+          answer:
+            "הריקוד משקף את ההיסטוריה, הערכים והמסורות של עם — דרך תנועה, לבוש ומוזיקה.\u200F",
         },
         {
-          question: "cipher",
-          answer: `Manages encryption of files and directories.\n\nExample:\ncipher /e file.txt`,
+          question: "מהם מרכיבי הכושר הגופני המתפתחים בריקוד?\u200F",
+          answer: "קואורדינציה, שיווי משקל, גמישות, סבולת וקצב.\u200F",
         },
         {
-          question: "comp",
-          answer: `Compares the contents of two files or sets of files.\n\nExample:\ncomp file1.txt file2.txt`,
+          question: "מהו תפקיד ההבעה הרגשית בריקוד?\u200F",
+          answer:
+            "להעביר תחושות ותחומי משמעות דרך תנועות הגוף, הבעות הפנים והקשר עם אחרים.\u200F",
         },
         {
-          question: "fc",
-          answer: `Compares two files or sets of files and displays the differences.\n\nExample:\nfc file1.txt file2.txt`,
+          question: "מהו ריקוד מעובד?\u200F",
+          answer:
+            "ריקוד עם מסורתי שעבר עיבוד מודרני מבחינת מוזיקה או צעדים כדי להתאים להופעות או תחרויות.\u200F",
         },
         {
-          question: "find",
-          answer: `Searches for a text string in a file or files.\n\nExample:\nfind "example" file.txt`,
+          question: "כיצד משפיעה התרבות על סגנון הריקוד?\u200F",
+          answer:
+            "התרבות קובעת את סוג התנועות, הביגוד, הקצב והאווירה של כל ריקוד עממי.\u200F",
         },
         {
-          question: "findstr",
-          answer: `Searches for strings in files.\n\nExample:\nfindstr "example" file.txt`,
+          question: "מהו שילוב בין ריקוד מודרני לריקוד עם?\u200F",
+          answer:
+            "יצירת כוריאוגרפיה חדשה המשלבת מסורת עם אלמנטים עדכניים של תנועה ומוזיקה.\u200F",
         },
         {
-          question: "for",
-          answer: `Runs a specified command for each file in a set of files.\n\nExample:\nfor %i in (*.txt) do echo %i`,
+          question: "מהי תרומת ריקודי עם לפיתוח חברתי?\u200F",
+          answer:
+            "הם מחזקים תחושת שייכות, שיתוף פעולה, ביטוי עצמי והנאה קבוצתית.\u200F",
         },
         {
-          question: "type",
-          answer: `Displays the contents of a text file.\n\nExample:\ntype file.txt`,
-        },
-        {
-          question: "path",
-          answer: `Displays or sets a search path for executable files.\n\nExample:\npath C:\\Windows`,
-        },
-        {
-          question: "pause",
-          answer: `Pauses the processing of a batch file and prompts the user to press any key.\n\nExample:\npause`,
-        },
-        {
-          question: "shutdown",
-          answer: `Shuts down or restarts the computer.\n\nExample:\nshutdown /r /t 0`,
+          question: "מהו הריקוד כסמל תרבותי?\u200F",
+          answer:
+            "כל ריקוד מייצג את רוח העם, ההיסטוריה והרגשות של קהילה מסוימת דרך תנועה ומוזיקה.\u200F",
         },
       ],
     },
@@ -1667,9 +1684,8 @@ document.addEventListener("DOMContentLoaded", function () {
     "אורינות שפתית",
     "יסודות באתלטיקה",
     "יסודות בכדורסל",
-    "נושא חדש",
-    "נושא חדש 2",
-    "נושא חדש 3",
+    "יסודות בכדורגל",
+    "ריקוד עם ועמים",
   ];
 
   const ButtonController = {
