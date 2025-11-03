@@ -358,103 +358,153 @@ document.addEventListener("DOMContentLoaded", function () {
       ],
     },
     {
-      subject: "css",
+      subject: "סטטיסטיקה\u200F",
       questions: [
-        // Existing questions
         {
-          question: "What does CSS stand for?",
-          answer: "Cascading Style Sheets",
-        },
-        {
-          question: "How do you include a CSS file in an HTML document?",
-          answer: 'Using the <link> tag with rel="stylesheet"',
-        },
-        // Add 20 new questions for CSS
-        {
-          question: "What is the purpose of the 'box-sizing' property?",
+          question: "מהי סטטיסטיקה?\u200F",
           answer:
-            "To control how the width and height of an element are calculated",
+            "תחום במדע העוסק באיסוף, ארגון, ניתוח ופירוש של נתונים.\u200F",
         },
         {
-          question: "How do you center a block-level element horizontally?",
-          answer: "Using margin: auto with a fixed width",
-        },
-        {
-          question: "What does the 'display: flex;' property do?",
-          answer: "Enables a flexible layout for children elements",
-        },
-        {
-          question: "How do you create a CSS grid layout?",
-          answer: "Using the display: grid; property",
-        },
-        {
-          question: "What is the purpose of the 'z-index' property?",
-          answer: "To control the stacking order of positioned elements",
-        },
-        {
-          question: "How do you make a text element bold using CSS?",
-          answer: "Using font-weight: bold;",
-        },
-        {
-          question: "What is the use of the 'opacity' property?",
-          answer: "To set the transparency level of an element",
-        },
-        {
-          question: "How can you create a hover effect in CSS?",
-          answer: "Using the :hover pseudo-class",
-        },
-        {
-          question: "What does the 'position: absolute;' property do?",
+          question: "מה ההבדל בין סטטיסטיקה תיאורית לסטטיסטיקה הסקתית?\u200F",
           answer:
-            "Positions an element relative to its closest positioned ancestor",
+            "סטטיסטיקה תיאורית מסכמת ומתארת נתונים קיימים, בעוד שסטטיסטיקה הסקתית משתמשת במדגם כדי להסיק על כלל האוכלוסייה.\u200F",
         },
         {
-          question: "How do you set a background image in CSS?",
-          answer: "Using the background-image property",
-        },
-        {
-          question: "What is the purpose of the 'float' property?",
+          question: "מהו מדגם?\u200F",
           answer:
-            "To position elements to the left or right, allowing text to wrap around them",
+            "קבוצה קטנה שנבחרה מתוך אוכלוסייה גדולה יותר כדי לייצג אותה בניתוח נתונים.\u200F",
         },
         {
-          question:
-            "How do you apply a style to all <p> elements within a <div>?",
-          answer: "Using div p { ... } selector",
-        },
-        {
-          question: "What does the 'text-align' property do?",
-          answer: "Aligns text within an element",
-        },
-        {
-          question: "How can you create rounded corners on an element?",
-          answer: "Using the border-radius property",
-        },
-        {
-          question: "What does the 'flex-direction' property control?",
-          answer: "The direction in which flex items are laid out",
-        },
-        {
-          question: "How do you change the font size of text in CSS?",
-          answer: "Using the font-size property",
-        },
-        {
-          question: "What is the 'em' unit used for in CSS?",
+          question: "מהי אוכלוסייה במחקר סטטיסטי?\u200F",
           answer:
-            "To specify font sizes relative to the parent element's font size",
+            "הקבוצה הכוללת את כל הפרטים או האובייקטים שנחקרים, לדוגמה: כל תלמידי בית ספר מסוים.\u200F",
         },
         {
-          question: "How do you set a fixed height for an element in CSS?",
-          answer: "Using the height property with a fixed value",
+          question: "מהו משתנה כמותי?\u200F",
+          answer: "משתנה שנמדד במספרים, לדוגמה: גובה, משקל או גיל.\u200F",
         },
         {
-          question: "What is the purpose of the 'border' property?",
-          answer: "To set the width, style, and color of an element's border",
+          question: "מהו משתנה איכותי?\u200F",
+          answer: "משתנה שמתאר תכונה או קטגוריה, כמו צבע עיניים או מגדר.\u200F",
         },
         {
-          question: "How can you use a CSS variable?",
+          question: "מהו ממוצע חשבוני?\u200F",
           answer:
-            "By defining a variable with --variable-name and using it with var(--variable-name)",
+            "סכום כל הערכים חלקי מספרם הכולל. לדוגמה, ממוצע של 2, 4, 6 הוא (2+4+6)/3 = 4.\u200F",
+        },
+        {
+          question: "מהי חציון?\u200F",
+          answer:
+            "הערך שנמצא באמצע סדרת נתונים ממוינת. חצי מהערכים קטנים ממנו וחצי גדולים ממנו.\u200F",
+        },
+        {
+          question: "מהו שכיח (מוד)?\u200F",
+          answer: "הערך שמופיע בתדירות הגבוהה ביותר בנתונים.\u200F",
+        },
+        {
+          question: "מהו טווח הערכים?\u200F",
+          answer: "ההפרש בין הערך הגדול ביותר לקטן ביותר במדגם.\u200F",
+        },
+        {
+          question: "מהי שונות (Variance)?\u200F",
+          answer:
+            "ממוצע ריבועי ההפרשים בין כל ערך לממוצע הכללי. היא מודדת את פיזור הנתונים.\u200F",
+        },
+        {
+          question: "מהי סטיית תקן?\u200F",
+          answer:
+            "השורש הריבועי של השונות. מראה עד כמה הערכים רחוקים מהממוצע.\u200F",
+        },
+        {
+          question: "מהי התפלגות נורמלית?\u200F",
+          answer:
+            "התפלגות סימטרית בצורת פעמון, שבה רוב הערכים קרובים לממוצע ומעטים רחוקים ממנו.\u200F",
+        },
+        {
+          question: "מהו ציון תקן (Z-score)?\u200F",
+          answer:
+            "מדד המתאר בכמה סטיות תקן נמצא ערך מסוים מעל או מתחת לממוצע.\u200F",
+        },
+        {
+          question: "מהו מתאם (Correlation)?\u200F",
+          answer:
+            "מדד הקובע את עוצמת וכיוון הקשר בין שני משתנים. נע בין ‎-1‎ ל‎+1‎.\u200F",
+        },
+        {
+          question: "מהי רגרסיה ליניארית?\u200F",
+          answer:
+            "שיטה המשמשת לחיזוי ערך של משתנה אחד בהתבסס על קשר ליניארי עם משתנה אחר.\u200F",
+        },
+        {
+          question: "מה ההבדל בין משתנה תלוי לעצמאי?\u200F",
+          answer:
+            "המשתנה העצמאי הוא זה שמנבאים לפיו, והתלוי הוא זה שהושפע או נחזה.\u200F",
+        },
+        {
+          question: "מהי השערת אפס (H₀)?\u200F",
+          answer:
+            "הנחה שאין קשר או הבדל משמעותי בין המשתנים הנבדקים בניסוי.\u200F",
+        },
+        {
+          question: "מהי רמת מובהקות (α)?\u200F",
+          answer:
+            "ההסתברות לטעות מסוג ראשון — לדחות השערת אפס כשהיא נכונה. לרוב נבחרת כ-0.05.\u200F",
+        },
+        {
+          question: "מהו מבחן t?\u200F",
+          answer:
+            "בדיקה סטטיסטית הבוחנת האם יש הבדל מובהק בין שני ממוצעים.\u200F",
+        },
+        {
+          question: "מהו מבחן χ² (קי-בריבוע)?\u200F",
+          answer:
+            "מבחן הבוחן את הקשר בין משתנים קטגוריים או את ההתאמה בין תצפיות לציפיות.\u200F",
+        },
+        {
+          question: "מהו p-value?\u200F",
+          answer:
+            "ההסתברות לקבל תוצאה לפחות קיצונית כמו זו שנצפתה, בהנחה שהשערת האפס נכונה.\u200F",
+        },
+        {
+          question: "מהי טעות מסוג ראשון ושני?\u200F",
+          answer:
+            "טעות מסוג ראשון: דחיית H₀ כשנכונה. טעות מסוג שני: קבלת H₀ כשאינה נכונה.\u200F",
+        },
+        {
+          question: "מה ההבדל בין סטיית תקן של מדגם לזו של אוכלוסייה?\u200F",
+          answer:
+            "במדגם מחלקים את סכום ריבועי ההפרשים ב-n-1, ובאוכלוסייה ב-n — כדי לתקן את ההטיה במדגם.\u200F",
+        },
+        {
+          question: "מהו רווח סמך?\u200F",
+          answer:
+            "טווח ערכים שבו, בהסתברות מסוימת (לרוב 95%), נמצא הערך האמיתי של הפרמטר באוכלוסייה.\u200F",
+        },
+        {
+          question: "מהו ניתוח שונות (ANOVA)?\u200F",
+          answer:
+            "מבחן הבודק האם קיימים הבדלים מובהקים בין שלושה ממוצעים או יותר.\u200F",
+        },
+        {
+          question: "מהו מבחן רגרסיה מרובה?\u200F",
+          answer:
+            "שיטה לניתוח השפעת כמה משתנים עצמאיים על משתנה תלוי אחד.\u200F",
+        },
+        {
+          question: "מה ההבדל בין מתאם לרגרסיה?\u200F",
+          answer:
+            "מתאם מודד קשר בלבד, רגרסיה בונה משוואת חיזוי שמנבאת ערכים.\u200F",
+        },
+        {
+          question: "מהי סטטיסטיקה לא פרמטרית?\u200F",
+          answer:
+            "שיטות ניתוח שאינן מניחות שהתפלגות הנתונים היא נורמלית — מתאימות למדגמים קטנים או נתונים מסולפים.\u200F",
+        },
+        {
+          question: "מה תפקידה של סטטיסטיקה במחקר מדעי?\u200F",
+          answer:
+            "לאפשר לחוקרים להסיק מסקנות מבוססות נתונים, לבדוק השערות ולהעריך מובהקות של תוצאות.\u200F",
         },
       ],
     },

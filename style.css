@@ -6,14 +6,14 @@ html {
   height: 100%;
   font-family: Arial, sans-serif;
   background-color: #000000; /* Dark background for the entire page */
-  color: #e0e0e0; /* Light text color for better readability */
+  color: #fafcff; /* Light text color for better readability */
 }
 
 /* Title Styles */
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 3.5em;
-  color: #c4c4c4; /* Light text color */
+  color: #fdfdfd; /* Light text color */
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 20px 0 10px 0; /* Increase top margin to move it higher */
@@ -39,7 +39,7 @@ h1:hover {
 
 /* Navbar Styles */
 .navbar {
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: #1e1e1e; /* Darker background for the sidebar */
   padding: 10px;
