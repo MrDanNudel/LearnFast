@@ -657,108 +657,152 @@ document.addEventListener("DOMContentLoaded", function () {
       ],
     },
     {
-      subject: "SQL",
+      subject: "פסיכולוגיה\u200F",
       questions: [
         {
-          question: "What is SQL?",
+          question: "מהי פסיכולוגיה?\u200F",
           answer:
-            "SQL (Structured Query Language) is a standard programming language used to manage and manipulate relational databases.",
+            "מדע העוסק בחקר ההתנהגות, התהליכים המנטליים והחוויה האנושית.\u200F",
         },
         {
-          question: "What is a database?",
+          question: "מה ההבדל בין פסיכולוגיה לפסיכיאטריה?\u200F",
           answer:
-            "A database is an organized collection of structured information, or data, typically stored electronically in a computer system.",
+            "פסיכולוגיה עוסקת בהבנת התנהגות ותהליכים נפשיים, בעוד שפסיכיאטריה היא תחום רפואי המטפל בהפרעות נפשיות באמצעות תרופות וטיפול רפואי.\u200F",
         },
         {
-          question: "What is a table in SQL?",
+          question: "מהן ארבע המטרות המרכזיות של הפסיכולוגיה?\u200F",
           answer:
-            "A table is a collection of related data entries that consists of columns and rows in a relational database.",
+            "תיאור ההתנהגות, הבנתה, ניבוי מצבים עתידיים ושליטה או השפעה על ההתנהגות.\u200F",
         },
         {
-          question: "How do you create a table in SQL?",
+          question: "מהי גישה פסיכואנליטית?\u200F",
           answer:
-            "You create a table using the CREATE TABLE statement: CREATE TABLE table_name (column1 datatype, column2 datatype, ...);",
+            "גישה שפותחה על ידי זיגמונד פרויד, המתמקדת בתת־מודע, בדחפים ובחוויות ילדות כמניעים עיקריים להתנהגות.\u200F",
         },
         {
-          question: "What is a primary key in SQL?",
+          question: "מהי תת־מודע לפי פרויד?\u200F",
           answer:
-            "A primary key is a field (or fields) in a table that uniquely identifies each row/record in that table.",
+            "החלק במוח שבו נמצאים מחשבות, רגשות ודחפים שאינם מודעים אך משפיעים על ההתנהגות.\u200F",
         },
         {
-          question: "How do you insert data into a table in SQL?",
+          question: "מהי גישת הביהייביוריזם?\u200F",
           answer:
-            "You insert data using the INSERT INTO statement: INSERT INTO table_name (column1, column2, ...) VALUES (value1, value2, ...);",
+            "גישה הרואה בהתנהגות נלמדת תוצאה של חיזוקים וענישה מהסביבה, תוך התמקדות בהתנהגות הנצפית בלבד.\u200F",
         },
         {
-          question: "What is a foreign key in SQL?",
+          question: "מהי גישת ההומניזם בפסיכולוגיה?\u200F",
           answer:
-            "A foreign key is a field (or fields) in one table that uniquely identifies a row of another table or the same table.",
+            "גישה הרואה את האדם כבעל רצון חופשי, יכולת בחירה ושאיפה למימוש עצמי (ע״פ קרל רוג'רס ואברהם מאסלו).\u200F",
         },
         {
-          question: "How do you update data in a table in SQL?",
+          question: "מהי היררכיית הצרכים של מאסלו?\u200F",
           answer:
-            "You update data using the UPDATE statement: UPDATE table_name SET column1 = value1, column2 = value2, ... WHERE condition;",
+            "תיאוריה המתארת חמישה שלבים של צרכים אנושיים – מצרכים בסיסיים ועד לצורך במימוש עצמי.\u200F",
         },
         {
-          question: "How do you delete data from a table in SQL?",
+          question: "מהי גישת הקוגניטיביזם?\u200F",
           answer:
-            "You delete data using the DELETE statement: DELETE FROM table_name WHERE condition;",
+            "גישה המתמקדת בתהליכים מנטליים כמו חשיבה, זיכרון, קבלת החלטות ולמידה.\u200F",
         },
         {
-          question: "What is a SELECT statement in SQL?",
+          question: "מהי תפיסה קוגניטיבית של למידה?\u200F",
           answer:
-            "The SELECT statement is used to select data from a database: SELECT column1, column2, ... FROM table_name;",
+            "למידה נחשבת לתהליך פעיל של עיבוד מידע ולא רק תגובה לגירויים חיצוניים.\u200F",
         },
         {
-          question: "What is a JOIN in SQL?",
+          question: "מהי גישת הגשטלט?\u200F",
           answer:
-            "A JOIN clause is used to combine rows from two or more tables, based on a related column between them.",
+            "גישה הרואה את התודעה כתפיסת מכלול שלם ולא כסכום חלקים בודדים — ״השלם גדול מסך חלקיו״.\u200F",
         },
         {
-          question: "What are the different types of JOINs in SQL?",
+          question: "מהי קלאסיפיקציה של הפרעות נפשיות?\u200F",
           answer:
-            "The different types of JOINs are INNER JOIN, LEFT JOIN (or LEFT OUTER JOIN), RIGHT JOIN (or RIGHT OUTER JOIN), and FULL JOIN (or FULL OUTER JOIN).",
+            "חלוקה של הפרעות לפי מאפיינים ותסמינים, למשל בספר האבחנות DSM.\u200F",
         },
         {
-          question: "What is a WHERE clause in SQL?",
+          question: "מהו מבחן רורשאך?\u200F",
           answer:
-            "The WHERE clause is used to filter records. It is used to extract only those records that fulfill a specified condition.",
+            "מבחן השלכתי שבו נבדקים מפרשים כתמי דיו כדי לחשוף תהליכים לא מודעים.\u200F",
         },
         {
-          question: "What is an SQL injection?",
+          question: "מהו מבחן אישיות?\u200F",
           answer:
-            "SQL injection is a code injection technique that might destroy your database. It is one of the most common web hacking techniques.",
+            "כלי למדידת תכונות אישיות, רגשות ונטיות התנהגותיות, לדוגמה שאלון 16PF או Big Five.\u200F",
         },
         {
-          question: "How do you prevent SQL injection?",
+          question: "מהו חיזוק חיובי?\u200F",
           answer:
-            "You can prevent SQL injection by using parameterized queries, stored procedures, and by validating user inputs.",
+            "תגובה חיובית (כמו פרס או שבח) שניתנת בעקבות התנהגות רצויה כדי לעודד אותה לחזור.\u200F",
         },
         {
-          question: "What is a stored procedure in SQL?",
+          question: "מהי ענישה שלילית?\u200F",
           answer:
-            "A stored procedure is a prepared SQL code that you can save, so the code can be reused over and over again.",
+            "הסרת גירוי נעים בעקבות התנהגות לא רצויה כדי להפחית את הישנותה.\u200F",
         },
         {
-          question: "What is a view in SQL?",
+          question: "מהי דיסהוננס קוגניטיבי?\u200F",
           answer:
-            "A view is a virtual table based on the result-set of an SQL statement. It contains rows and columns, just like a real table.",
+            "תחושת מתח שנוצרת כאשר אדם מחזיק בשתי אמונות או התנהגויות סותרות — לפי ליאון פסטינגר.\u200F",
         },
         {
-          question: "What is a subquery in SQL?",
+          question: "מהו אפקט פלצבו?\u200F",
           answer:
-            "A subquery is a query within another query. The outer query is called the main query, and the inner query is called the subquery.",
+            "תופעה שבה נבדק חווה שיפור במצבו רק משום שהוא מאמין שקיבל טיפול יעיל, גם אם קיבל טיפול דמה.\u200F",
         },
         {
-          question:
-            "What is the difference between UNION and UNION ALL in SQL?",
+          question: "מהו מבחן מילגרם?\u200F",
           answer:
-            "UNION combines the result set of two or more SELECT statements and removes duplicates, while UNION ALL combines the result set and includes duplicates.",
+            "ניסוי שבדק ציות לסמכות, שבו משתתפים חשבו שהם מענישים אחרים בחשמל — רובם צייתו למרות חוסר הנוחות.\u200F",
         },
         {
-          question: "What is indexing in SQL?",
+          question: "מה היה ניסוי הכלא של סטנפורד?\u200F",
           answer:
-            "Indexing is a database technique used to improve the speed of data retrieval operations on a table by creating a special lookup table that the database search engine can use to speed up data retrieval.",
+            "ניסוי שבדק כיצד תפקידים חברתיים משפיעים על התנהגות — שבו סטודנטים שגולמו כאסירים ושומרים איבדו שליטה תוך ימים.\u200F",
+        },
+        {
+          question: "מהי פסיכולוגיה חברתית?\u200F",
+          answer:
+            "תחום העוסק בהשפעת החברה והסביבה על חשיבה, רגשות והתנהגות של יחידים.\u200F",
+        },
+        {
+          question: "מהי הטיית אישוש?\u200F",
+          answer:
+            "נטייה לחפש מידע שתומך בדעות קיימות ולהתעלם ממידע שסותר אותן.\u200F",
+        },
+        {
+          question: "מהו אפקט הצופה מהצד?\u200F",
+          answer:
+            "תופעה שבה נוכחות של אחרים גורמת לאדם להימנע מלהתערב במצב חירום.\u200F",
+        },
+        {
+          question: "מהי פסיכולוגיה חיובית?\u200F",
+          answer:
+            "תחום מחקר העוסק בפיתוח חוזקות, אושר, משמעות ומימוש עצמי.\u200F",
+        },
+        {
+          question: "מה ההבדל בין אמפתיה לסימפתיה?\u200F",
+          answer:
+            "אמפתיה היא הזדהות עם רגשות הזולת והבנתם, סימפתיה היא רגש של חמלה כלפי אדם אחר.\u200F",
+        },
+        {
+          question: "מהי פסיכולוגיה קוגניטיבית?\u200F",
+          answer:
+            "תחום החוקר תהליכים מנטליים כמו זיכרון, תפיסה, חשיבה ולמידה.\u200F",
+        },
+        {
+          question: "מהי פסיכולוגיה ביולוגית?\u200F",
+          answer:
+            "תחום הבודק כיצד תהליכים מוחיים, הורמונליים וגנטיים משפיעים על ההתנהגות.\u200F",
+        },
+        {
+          question: "מהי נוירופסיכולוגיה?\u200F",
+          answer:
+            "תחום משולב בין נוירולוגיה ופסיכולוגיה החוקרת את הקשר בין מבנה המוח לתפקודים מנטליים והתנהגותיים.\u200F",
+        },
+        {
+          question: "מהי פסיכותרפיה?\u200F",
+          answer:
+            "תהליך טיפולי המבוסס על שיחה, הקשבה ושינוי דפוסי חשיבה ורגש כדי לשפר את בריאות הנפש.\u200F",
         },
       ],
     },
