@@ -1099,423 +1099,427 @@ document.addEventListener("DOMContentLoaded", function () {
       ],
     },
     {
-      subject: "Network",
+      subject: "יסודות באתלטיקה\u200F",
       questions: [
         {
-          question: "What is HTTP?",
+          question: "מהי אתלטיקה קלה?\u200F",
           answer:
-            "HTTP (Hypertext Transfer Protocol) is the protocol used for transferring hypertext requests and information on the web. It defines how messages are formatted and transmitted, and how web servers and browsers should respond to various commands.",
+            "ענף ספורט הכולל ריצה, קפיצה, זריקה והליכה תחרותית — נחשב לבסיס של כל פעילות גופנית.\u200F",
         },
         {
-          question: "What is HTTPS?",
-          answer:
-            "HTTPS (Hypertext Transfer Protocol Secure) is the secure version of HTTP. It uses TLS (Transport Layer Security) or SSL (Secure Sockets Layer) to encrypt the data transferred between the client and the server, ensuring privacy and data integrity.",
+          question: "מהם ארבעת תחומי האתלטיקה המרכזיים?\u200F",
+          answer: "ריצה, קפיצה, זריקה והליכה תחרותית.\u200F",
         },
         {
-          question: "What is a DNS server?",
-          answer:
-            "A DNS (Domain Name System) server translates domain names (like www.example.com) into IP addresses (like 192.0.2.1) that computers use to identify each other on the network.",
+          question: "מהי ריצה קצרה (ספרינט)?\u200F",
+          answer: "ריצה למרחק של עד 400 מטרים במהירות מרבית וללא האטה.\u200F",
         },
         {
-          question: "What is an IP address?",
+          question: "מהי ריצה בינונית?\u200F",
           answer:
-            "An IP (Internet Protocol) address is a unique string of numbers separated by periods (IPv4) or colons (IPv6) that identifies each computer using the Internet Protocol to communicate over a network.",
+            "ריצה למרחקים שבין 800 ל־1500 מטרים, המשלבת סבולת ומהירות.\u200F",
         },
         {
-          question: "What is the difference between IPv4 and IPv6?",
+          question: "מהי ריצה ארוכה?\u200F",
           answer:
-            "IPv4 is the fourth version of the Internet Protocol, using 32-bit addresses, allowing for approximately 4.3 billion unique addresses. IPv6 is the sixth version, using 128-bit addresses, allowing for a vastly larger number of unique addresses.",
+            "ריצה למרחקים ארוכים (מ־3000 מטרים ומעלה) המפתחת סבולת לב־ריאה גבוהה.\u200F",
         },
         {
-          question: "What is a web server?",
+          question: "מהם שלבי הזינוק בריצה קצרה?\u200F",
           answer:
-            "A web server is a computer system that hosts websites and serves web pages to users over the internet or an intranet. It handles requests from clients, typically browsers, and delivers web content such as HTML pages, images, and scripts.",
+            "עמידת זינוק, מוכנות, ירייה, והאצה בשלבים הראשונים לשיא מהירות.\u200F",
         },
         {
-          question: "What is a URL?",
+          question: "מה החשיבות של תנוחת הגוף בריצה?\u200F",
           answer:
-            "A URL (Uniform Resource Locator) is the address used to access resources on the web. It consists of the protocol (http/https), domain name (www.example.com), and optionally, the path to a specific page or resource (/path/to/resource).",
+            "תנוחה נכונה משפרת יעילות תנועה, מונעת פציעות ומגבירה מהירות.\u200F",
         },
         {
-          question: "What is a web browser?",
+          question: "מה ההבדל בין ריצה בקווים ישרים לבין ריצה במסלול?\u200F",
           answer:
-            "A web browser is a software application used to access and display web pages. It retrieves the content from web servers, interprets HTML, CSS, and JavaScript, and renders the pages for users to view and interact with.",
+            "ריצה ישרה מתמקדת בהאצה, במסלול נדרש גם שימור מהירות בפניות ויציבות.\u200F",
         },
         {
-          question: "What is the difference between a GET and a POST request?",
+          question: "מהם שלושת שלבי הקפיצה לרוחק?\u200F",
           answer:
-            "A GET request is used to retrieve data from a server, and the data is appended to the URL. A POST request is used to send data to a server to create or update a resource, and the data is included in the body of the request.",
+            "ריצה מהירה, ניתור מהמקום, ונחיתה מאוזנת תוך שמירה על שיווי משקל.\u200F",
         },
         {
-          question: "What is a cookie?",
+          question: "מהם שלבי הקפיצה לגובה?\u200F",
           answer:
-            "A cookie is a small piece of data stored on the user's computer by the web browser while browsing a website. It is used to remember information about the user, such as login status, preferences, and tracking identifiers.",
+            "ריצה בזווית, ניתור על רגל אחת, הרמת גוף מעל הרף ונחיתה על הגב במזרון.\u200F",
         },
         {
-          question: "What is a session?",
+          question: "מהם סוגי הזריקות באתלטיקה?\u200F",
           answer:
-            "A session is a way to store information (in variables) to be used across multiple pages in a web application. It is typically used to keep track of user interactions and maintain state between different requests from the same user.",
+            "הדיפת כדור ברזל, זריקת דיסקוס, הטלת כידון וזריקת פטיש.\u200F",
         },
         {
-          question: "What is a CDN?",
+          question: "מהם העקרונות הפיזיים בהדיפת כדור ברזל?\u200F",
           answer:
-            "A CDN (Content Delivery Network) is a system of distributed servers that deliver web content and other media to users based on their geographic location. It improves website performance by reducing latency and load times.",
+            "שימוש בכוח מתפרץ, העברת משקל מהעקב אל האצבעות, ופליטת הכדור בזווית אופטימלית.\u200F",
         },
         {
-          question: "What is latency?",
+          question: "מהו מסלול ההליכה התחרותית?\u200F",
           answer:
-            "Latency is the time delay between a user's action and the response from the server. It is influenced by various factors, including the distance between the client and server, network congestion, and the speed of the server.",
+            "הליכה שבה על הספורטאי לשמור כל הזמן על מגע אחד לפחות עם הקרקע ועם רגל ישרה בזמן מגע.\u200F",
         },
         {
-          question: "What is bandwidth?",
+          question: "מה החשיבות של חימום לפני פעילות אתלטית?\u200F",
           answer:
-            "Bandwidth is the maximum rate of data transfer across a network or internet connection. It is typically measured in bits per second (bps) and determines how much data can be sent or received in a given amount of time.",
+            "מכין את השרירים, מעלה טמפרטורה פנימית, משפר גמישות ומפחית סיכון לפציעה.\u200F",
         },
         {
-          question: "What is a firewall?",
+          question: "מה ההבדל בין כוח מתפרץ לכוח סבולת?\u200F",
           answer:
-            "A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It acts as a barrier between a trusted internal network and untrusted external networks.",
+            "כוח מתפרץ נדרש לתנועה מהירה ועוצמתית; כוח סבולת מאפשר ביצוע חוזר לאורך זמן.\u200F",
         },
         {
-          question: "What is SSL/TLS?",
+          question: "מהי טכניקת הניתור הנכונה בקפיצה לרוחק?\u200F",
           answer:
-            "SSL (Secure Sockets Layer) and TLS (Transport Layer Security) are cryptographic protocols designed to provide secure communication over a computer network. They encrypt data transmitted between clients and servers, ensuring privacy and data integrity.",
+            "רגל חזקה פוגעת בקרקע בזווית קטנה, תוך דחיפה קדימה־מעלה ושמירה על גוף יציב.\u200F",
         },
         {
-          question: "What is a VPN?",
+          question: "מהי חשיבות הנשימה הנכונה בריצה?\u200F",
           answer:
-            "A VPN (Virtual Private Network) is a service that allows users to connect to the internet securely and privately by routing their traffic through a server and hiding their IP address. It encrypts the data, ensuring privacy and security.",
+            "נשימה קצבית מווסתת זרימת חמצן, משפרת סבולת ומונעת עייפות מוקדמת.\u200F",
         },
         {
-          question: "What is a proxy server?",
-          answer:
-            "A proxy server acts as an intermediary between a client and a server. It forwards client requests to the server and returns the server's response to the client. Proxies can be used for various purposes, such as improving performance, filtering content, and hiding the client's IP address.",
+          question: "מהם מרכיבי הכושר הגופני באתלטיקה?\u200F",
+          answer: "כוח, מהירות, סבולת, גמישות וקואורדינציה.\u200F",
         },
         {
-          question: "What is a load balancer?",
+          question: "מה ההבדל בין אימון טכניקה לאימון כושר באתלטיקה?\u200F",
           answer:
-            "A load balancer is a device or software that distributes network or application traffic across multiple servers. It ensures no single server becomes overwhelmed, improving overall performance and reliability.",
+            "אימון טכניקה מתמקד בדיוק תנועה; אימון כושר מתמקד בפיתוח מרכיבי גוף כלליים.\u200F",
         },
         {
-          question: "What is an API?",
+          question: "מהי חשיבות ההתאוששות באימון אתלטי?\u200F",
           answer:
-            "An API (Application Programming Interface) is a set of rules and protocols that allows different software applications to communicate with each other. It defines the methods and data formats that applications can use to request and exchange information.",
+            "מאפשרת תיקון רקמות, מניעת עומס יתר ושיפור ביצועים לאורך זמן.\u200F",
         },
         {
-          question:
-            "What is the difference between front-end and back-end development?",
+          question: "מהו אימון אינטרוולים?\u200F",
           answer:
-            "Front-end development involves creating the visual and interactive aspects of a website that users interact with. Back-end development involves building and maintaining the server-side logic, databases, and application programming interfaces (APIs) that power the front-end.",
+            "אימון לסירוגין של מאמץ גבוה ומנוחה קצרה, לשיפור סבולת לב־ריאה ומהירות.\u200F",
         },
         {
-          question: "What is a web application?",
+          question: "מה מטרת הבדיקות הפיזיולוגיות באתלטיקה?\u200F",
           answer:
-            "A web application is a software application that runs on a web server and is accessed through a web browser. It can be a simple static site or a complex interactive platform with dynamic content and user interactions.",
+            "למדוד ביצועים, לזהות חולשות ולהתאים תוכנית אימון אישית.\u200F",
         },
         {
-          question: "What is a PWA?",
+          question: "מה ההבדל בין קפיצה אופקית לקפיצה אנכית?\u200F",
           answer:
-            "A PWA (Progressive Web Application) is a type of web application that uses modern web technologies to deliver a user experience similar to native mobile applications. PWAs are fast, reliable, and can work offline or with poor network conditions.",
+            "קפיצה אופקית שואפת למרחק; אנכית לגובה, תוך דגש על ניתור אנכי.\u200F",
         },
         {
-          question: "What is the DOM?",
+          question: "מהי חשיבות התזונה באתלטיקה?\u200F",
           answer:
-            "The DOM (Document Object Model) is a programming interface for web documents. It represents the structure of a web page as a tree of objects, allowing programs and scripts to dynamically access and update the content, structure, and style of the document.",
+            "תזונה מאוזנת תומכת באנרגיה, בהתאוששות ובשמירה על מסת שריר ותפקוד מיטבי.\u200F",
         },
         {
-          question: "What is AJAX?",
+          question: "מהי חשיבות המשמעת העצמית בספורטאי אתלטי?\u200F",
           answer:
-            "AJAX (Asynchronous JavaScript and XML) is a technique for creating fast and dynamic web pages. It allows web applications to asynchronously send and receive data from a server without refreshing the entire page.",
-        },
-        {
-          question: "What is the difference between TCP and UDP?",
-          answer:
-            "TCP (Transmission Control Protocol) is a connection-oriented protocol that ensures reliable data transmission. UDP (User Datagram Protocol) is a connectionless protocol that allows faster transmission but does not guarantee delivery, order, or error-checking.",
-        },
-        {
-          question: "What is a subnet?",
-          answer:
-            "A subnet (subnetwork) is a logical subdivision of an IP network. Subnets are used to organize and manage IP addresses more efficiently and improve network performance and security by segmenting large networks into smaller, more manageable parts.",
-        },
-        {
-          question: "What is a MAC address?",
-          answer:
-            "A MAC (Media Access Control) address is a unique identifier assigned to network interfaces for communications at the data link layer of a network. It is used to identify devices on a local network and is typically assigned by the manufacturer.",
-        },
-        {
-          question: "What is a gateway?",
-          answer:
-            "A gateway is a network node that serves as an access point to another network. It allows data to flow between different networks and can perform various functions, such as protocol translation, data filtering, and traffic routing.",
+            "נדרשת עקביות, התמדה וניהול זמן מדויק כדי להגיע לשיפור רציף בביצועים.\u200F",
         },
       ],
     },
     {
-      subject: "JobInterviewQuestion",
+      subject: "יסודות בכדורסל\u200F",
       questions: [
         {
-          question: "What is the difference between REST and SOAP?",
+          question: "מהו משחק הכדורסל?\u200F",
           answer:
-            "REST (Representational State Transfer) is an architectural style that uses HTTP methods for communication and is stateless. SOAP (Simple Object Access Protocol) is a protocol that uses XML for messaging and can operate over multiple protocols like HTTP, SMTP, etc.",
+            "משחק קבוצתי בין שתי קבוצות של חמישה שחקנים שכל אחת מנסה לקלוע לסל היריבה ולהגן על הסל שלה.\u200F",
         },
         {
-          question: "What are microservices?",
+          question: "מהו גודל מגרש הכדורסל התקני?\u200F",
           answer:
-            "Microservices are an architectural style that structures an application as a collection of small, autonomous services modeled around a business domain. Each microservice is independent, deployable, and scalable.",
+            "אורכו 28 מטרים ורוחבו 15 מטרים, עם גובה סל של 3.05 מטרים.\u200F",
         },
         {
-          question:
-            "What is continuous integration and continuous deployment (CI/CD)?",
-          answer:
-            "CI/CD is a method to frequently deliver apps to customers by introducing automation into the stages of app development. The main concepts attributed to CI/CD are continuous integration, continuous deployment, and continuous delivery.",
+          question: "כמה נקודות שווה קליעה רגילה?\u200F",
+          answer: "2 נקודות מתוך קשת ה־3 ו־3 נקודות אם הקליעה מחוץ לקשת.\u200F",
         },
         {
-          question: "Explain the concept of DevOps.",
+          question: "כמה זמן נמשך משחק כדורסל?\u200F",
           answer:
-            "DevOps is a set of practices that combine software development (Dev) and IT operations (Ops) aimed at shortening the development lifecycle and providing continuous delivery with high software quality.",
+            "4 רבעים של 10 דקות כל אחד (או 12 בליגת ה־NBA), עם הפסקות קצרות ביניהם.\u200F",
         },
         {
-          question: "What is the difference between SQL and NoSQL databases?",
-          answer:
-            "SQL databases are relational and use structured query language for defining and manipulating data. NoSQL databases are non-relational and are used for large sets of distributed data. They are schema-less and can handle unstructured data.",
+          question: "מהו כדרור?\u200F",
+          answer: "הקפצת הכדור על הרצפה ביד אחת ברציפות תוך כדי תנועה.\u200F",
         },
         {
-          question: "What is the purpose of Docker?",
+          question: "מהי מסירה?\u200F",
           answer:
-            "Docker is a platform that uses OS-level virtualization to deliver software in packages called containers. Containers are isolated from each other and bundle their own application, tools, libraries, and configuration files.",
+            "העברת הכדור משחקן לשחקן באחת מכמה טכניקות: מסירה ישרה, קשתית או קפיצה.\u200F",
         },
         {
-          question: "What is React?",
-          answer:
-            "React is a JavaScript library for building user interfaces. It allows developers to create large web applications that can update and render efficiently in response to data changes.",
+          question: "מהי קליעה לסל?\u200F",
+          answer: "זריקה מדויקת של הכדור לכיוון הסל במטרה לקלוע נקודות.\u200F",
         },
         {
-          question: "What is the use of the useState hook in React?",
-          answer:
-            "The useState hook is a function that allows you to add React state to function components. It returns an array with two values: the current state and a function to update it.",
+          question: "מהו ריבאונד?\u200F",
+          answer: "תפיסת הכדור לאחר החטאה של קליעה, בהגנה או בהתקפה.\u200F",
         },
         {
-          question:
-            "What is the difference between class-based and functional components in React?",
-          answer:
-            "Class-based components are ES6 classes that extend from React.Component and have a render method. Functional components are simple JavaScript functions that return JSX. Functional components can use hooks to manage state and side effects.",
+          question: "מהי עבירת צעדים?\u200F",
+          answer: "כאשר שחקן נע יותר משני צעדים בלי לכדרר את הכדור.\u200F",
         },
         {
-          question: "What is Node.js?",
+          question: "מהו פאול (עבירה אישית)?\u200F",
           answer:
-            "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows developers to use JavaScript to write server-side code and create scalable network applications.",
+            "מגע פיזי אסור עם יריב בזמן משחק, כמו דחיפה, אחיזה או חסימה לא חוקית.\u200F",
         },
         {
-          question: "What is Express.js?",
+          question: "מהו כדרור כפול?\u200F",
           answer:
-            "Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It is used to build single-page, multi-page, and hybrid web applications.",
+            "כאשר שחקן מפסיק לכדרר ואז מתחיל שוב לפני שמסר או זרק את הכדור.\u200F",
         },
         {
-          question: "What are Promises in JavaScript?",
+          question: "מהו חסימה (Screen)?\u200F",
           answer:
-            "Promises are objects that represent the eventual completion or failure of an asynchronous operation. They provide a cleaner, more flexible way to handle asynchronous operations compared to traditional callback-based approaches.",
+            "תמרון שבו שחקן עומד כך שיעזור לחברו להשתחרר משומר מבלי להיתקל בו.\u200F",
         },
         {
-          question:
-            "What is the difference between synchronous and asynchronous programming?",
-          answer:
-            "Synchronous programming executes tasks sequentially, blocking the main thread until each task completes. Asynchronous programming allows tasks to run concurrently, using callbacks, promises, or async/await to handle the results, without blocking the main thread.",
+          question: "מהם שלושת מצבי הגוף המרכזיים במשחק?\u200F",
+          answer: "עמדת הגנה, עמדת התקפה ועמדת קליעה.\u200F",
         },
         {
-          question: "What is RESTful API?",
+          question: "מהי עמדת ההגנה הנכונה?\u200F",
           answer:
-            "A RESTful API is an application programming interface that follows the principles of REST. It uses HTTP requests to perform CRUD operations and is stateless, meaning each request from a client contains all the information needed to process the request.",
+            "ברכיים כפופות, גב ישר, ידיים פתוחות, משקל על כריות כף הרגל ותנועה לצדדים.\u200F",
         },
         {
-          question: "What is JWT (JSON Web Token)?",
-          answer:
-            "JWT is a compact, URL-safe means of representing claims to be transferred between two parties. It is commonly used for authentication and information exchange. A JWT is composed of three parts: header, payload, and signature.",
+          question: "מהו כדרור נמוך לעומת גבוה?\u200F",
+          answer: "נמוך משמש בהגנה ובצפיפות; גבוה משמש בריצה במגרש פתוח.\u200F",
         },
         {
-          question: "What is GraphQL?",
+          question: "מהו 'פיק אנד רול'?\u200F",
           answer:
-            "GraphQL is a query language for APIs and a runtime for executing those queries by using a type system you define for your data. It allows clients to request exactly the data they need, reducing over-fetching and under-fetching of data.",
+            "תיאום בין חוסם למוביל כדור: החוסם יוצר חסימה ואז מתגלגל לסל לקבלת מסירה.\u200F",
         },
         {
-          question: "What is the role of a full-stack developer?",
+          question: "מהי תנועה ללא כדור?\u200F",
           answer:
-            "A full-stack developer is proficient in both front-end and back-end development. They are capable of working on the complete stack of technology, including databases, servers, front-end development, and client-side development.",
+            "תנועת שחקנים במטרה להיפתח למסירה, לבלבל את ההגנה וליצור מרחב.\u200F",
         },
         {
-          question: "What is Agile methodology?",
+          question: "מהו ריבאונד התקפה לעומת הגנה?\u200F",
           answer:
-            "Agile methodology is an iterative approach to software development that focuses on collaboration, customer feedback, and small, rapid releases. It emphasizes flexibility and adaptability throughout the development process.",
+            "ריבאונד התקפה מאפשר ניסיון קליעה נוסף; ריבאונד הגנה מחזיר את הכדור לקבוצה שלך.\u200F",
         },
         {
-          question: "What is MVC architecture?",
+          question: "מהי עבירת תוקף?\u200F",
           answer:
-            "MVC (Model-View-Controller) is a software architectural pattern that separates an application into three main logical components: the model (data), the view (user interface), and the controller (business logic).",
+            "כאשר שחקן התקפה מתנגש בשומר שהספיק להתמקם במקומו באופן חוקי.\u200F",
         },
         {
-          question: "What is Test-Driven Development (TDD)?",
+          question: "מהו 'שחקן חמישי' בהגנה קבוצתית?\u200F",
           answer:
-            "TDD is a software development approach where tests are written before writing the actual code. Developers write a test for a specific functionality, then write the code to pass the test, and finally refactor the code while keeping the tests green.",
+            "היכולת של כל שחקן לדעת לסגור את החלל הנכון ולתמוך בחבריו בהגנה אזורית.\u200F",
         },
         {
-          question: "What is the purpose of unit testing?",
+          question: "מה ההבדל בין הגנה אישית להגנה אזורית?\u200F",
           answer:
-            "Unit testing involves testing individual units or components of a software application to ensure that each part functions correctly. It helps identify bugs early and improves code quality.",
+            "בהגנה אישית כל שחקן שומר יריב ספציפי; בהגנה אזורית כל שחקן אחראי על שטח.\u200F",
         },
         {
-          question: "What is the use of the fetch API in JavaScript?",
+          question: "מהו 'פאסט ברייק'?\u200F",
           answer:
-            "The fetch API provides a way to make network requests similar to XMLHttpRequest (XHR). It is more powerful and flexible, returning promises and supporting modern JavaScript features like async/await.",
+            "מתפרצת מהירה לאחר חטיפה או ריבאונד, במטרה לקלוע לפני שההגנה מסתדרת.\u200F",
         },
         {
-          question: "What is middleware in Express.js?",
+          question: "מה חשיבות התיאום הקבוצתי בכדורסל?\u200F",
           answer:
-            "Middleware in Express.js is a function that executes during the request-response cycle. It can modify the request and response objects, end the request-response cycle, and call the next middleware function in the stack.",
+            "כדי ליצור מהלכים יעילים, חיפוי הדדי בהגנה ותנועה חכמה בהתקפה.\u200F",
         },
         {
-          question:
-            "What is the difference between GET and POST methods in HTTP?",
+          question: "מה תפקיד הרכז בקבוצה?\u200F",
           answer:
-            "GET requests data from a specified resource, and the data is appended to the URL. POST submits data to be processed to a specified resource, with the data included in the body of the request.",
+            "לנהל את המשחק, לחלק מסירות, לשמור על קצב ולכוון את חברי הקבוצה.\u200F",
         },
         {
-          question:
-            "What is the purpose of the package.json file in a Node.js project?",
+          question: "מהו שחקן סנטר ומה תפקידו?\u200F",
           answer:
-            "The package.json file is used to define the properties, dependencies, and scripts of a Node.js project. It includes metadata about the project and lists the packages that the project depends on.",
+            "שחקן גבוה וחזק האחראי על אזור הצבע, ריבאונדים וקליעות מקרוב.\u200F",
         },
         {
-          question: "What is the Virtual DOM in React?",
-          answer:
-            "The Virtual DOM is a lightweight, in-memory representation of the actual DOM. React uses the Virtual DOM to optimize updates by computing the differences between the current and previous states and applying the minimal set of changes to the actual DOM.",
+          question: "מהו ג'אמפ שוט?\u200F",
+          answer: "קליעה בזמן קפיצה, המאפשרת שחרור מהיר ומדויק מעל שומר.\u200F",
         },
         {
-          question: "What are hooks in React?",
+          question: "מהי זריקת עונשין?\u200F",
           answer:
-            "Hooks are functions that let you use state and other React features in functional components. Examples include useState, useEffect, useContext, and useReducer.",
+            "זריקה חופשית אחת או שתיים מהקו לאחר עבירה, ששווה נקודה אחת כל אחת.\u200F",
         },
         {
-          question: "What is CORS and why is it important?",
+          question: "מהם מרכיבי הכושר החשובים בכדורסל?\u200F",
           answer:
-            "CORS (Cross-Origin Resource Sharing) is a security feature implemented by browsers to restrict how resources on a web page can be requested from another domain. It is important for preventing unauthorized access and ensuring secure interactions between different domains.",
+            "מהירות תגובה, זריזות, כוח מתפרץ, קואורדינציה וסבולת לב־ריאה.\u200F",
         },
         {
-          question: "What is a monolithic architecture?",
+          question: "מהי חשיבות הקואורדינציה במשחק?\u200F",
           answer:
-            "A monolithic architecture is a traditional software model where all components and functionalities of an application are bundled together into a single unit. It contrasts with microservices architecture, where the application is broken down into smaller, independent services.",
+            "מאפשרת שליטה בכדור, תנועה חלקה ותיאום בין עיניים, ידיים ורגליים.\u200F",
         },
         {
-          question: "What is responsive design?",
+          question: "כיצד מתבצע אימון יסודות בכדורסל?\u200F",
           answer:
-            "Responsive design is an approach to web development that ensures web pages render well on a variety of devices and window sizes. It uses flexible layouts, images, and CSS media queries to adapt the content to different screen sizes.",
+            "תרגול מסירות, כדרורים, קליעות, הגנה ותיאום קבוצתי באופן מדורג וקבוע.\u200F",
         },
       ],
     },
     {
-      subject: "explainTheCode",
+      subject: "יסודות בכדורגל\u200F",
       questions: [
         {
-          question: `const sum = (a, b) => a + b;\n\n// Explain this code`,
+          question: "מהו משחק הכדורגל?\u200F",
           answer:
-            "This code defines an arrow function named 'sum' that takes two parameters 'a' and 'b' and returns their sum.",
+            "משחק קבוצתי בין שתי קבוצות של 11 שחקנים שכל אחת מנסה להבקיע שער לשער היריב באמצעות בעיטה בכדור.\u200F",
         },
         {
-          question: `let person = { name: 'John', age: 30 };\n\n// Explain this code`,
+          question: "מהו משך זמן משחק כדורגל רגיל?\u200F",
           answer:
-            "This code creates an object 'person' with two properties: 'name' and 'age'.",
+            "90 דקות המחולקות לשני מחציות של 45 דקות כל אחת, עם הפסקה של 15 דקות ביניהן.\u200F",
         },
         {
-          question: `for (let i = 0; i < 5; i++) { console.log(i); }\n\n// Explain this code`,
-          answer:
-            "This code runs a loop from 0 to 4, logging each value of 'i' to the console.",
+          question: "מה גודל מגרש הכדורגל התקני?\u200F",
+          answer: "בין 100 ל־110 מטרים אורך ובין 64 ל־75 מטרים רוחב.\u200F",
         },
         {
-          question: `const numbers = [1, 2, 3].map(x => x * 2);\n\n// Explain this code`,
-          answer:
-            "This code creates an array of numbers, applies the 'map' method to multiply each element by 2, and returns a new array.",
+          question: "כמה שחקנים יש בכל קבוצה?\u200F",
+          answer: "11 שחקנים — 10 שחקני שדה ושוער אחד.\u200F",
         },
         {
-          question: `function greet(name) { return 'Hello ' + name; }\n\n// Explain this code`,
+          question: "מהי מטרת המשחק?\u200F",
           answer:
-            "This code defines a function 'greet' that takes a parameter 'name' and returns a greeting string.",
+            "להבקיע כמה שיותר שערים אל מול שער היריב במסגרת זמן המשחק.\u200F",
         },
         {
-          question: `const items = [1, 2, 3].reduce((acc, cur) => acc + cur, 0);\n\n// Explain this code`,
+          question: "מהו תפקידו של השוער?\u200F",
           answer:
-            "This code uses the 'reduce' method to sum up all the elements in the 'items' array, starting with an initial value of 0.",
+            "להגן על השער ולמנוע מהכדור לעבור את קו השער; היחיד שמותר לו לגעת בכדור בידיים באזור הרחבה.\u200F",
         },
         {
-          question: `let x = 10;\nif (x > 5) { x = 20; }\n\n// Explain this code`,
+          question: "מהו מסירה בכדורגל?\u200F",
           answer:
-            "This code checks if 'x' is greater than 5, and if so, sets 'x' to 20.",
+            "העברת הכדור בין שחקנים באותה קבוצה באמצעות בעיטה מדויקת בכף הרגל.\u200F",
         },
         {
-          question: `const isEven = num => num % 2 === 0;\n\n// Explain this code`,
+          question: "מהו כדרור?\u200F",
           answer:
-            "This code defines an arrow function 'isEven' that returns true if the given number 'num' is even.",
+            "הובלת הכדור תוך כדי ריצה בשטח המשחק על ידי נגיעות קצרות ומבוקרות בכדור.\u200F",
         },
         {
-          question: `let arr = [1, 2, 3];\narr.push(4);\n\n// Explain this code`,
-          answer:
-            "This code creates an array 'arr' and then adds the number 4 to the end of the array using the 'push' method.",
+          question: "מהו בעיטה לשער?\u200F",
+          answer: "בעיטה חזקה ומדויקת לכיוון השער במטרה להבקיע גול.\u200F",
         },
         {
-          question: `const greet = () => 'Hello World';\n\n// Explain this code`,
+          question: "מהו חטיפה?\u200F",
           answer:
-            "This code defines an arrow function 'greet' that returns the string 'Hello World'.",
-        },
-      ],
-    },
-    {
-      subject: "explainJavaCode",
-      questions: [
-        {
-          question: `public class Main {\n  public static void main(String[] args) {\n    int sum = 5 + 3;\n    System.out.println(sum);\n  }\n}\n\n// Explain this code`,
-          answer:
-            "This Java code defines a class 'Main' with a 'main' method. The 'main' method calculates the sum of 5 and 3, then prints the result (8) to the console.",
+            "לקיחת הכדור מהיריב באמצעים חוקיים — לרוב באמצעות תזמון נכון ותנועה מהירה.\u200F",
         },
         {
-          question: `public class Person {\n  String name;\n  int age;\n  public Person(String name, int age) {\n    this.name = name;\n    this.age = age;\n  }\n}\n\n// Explain this code`,
+          question: "מהי עבירה בכדורגל?\u200F",
           answer:
-            "This Java code defines a class 'Person' with two attributes: 'name' and 'age'. It includes a constructor that initializes these attributes.",
+            "מעשה לא חוקי כמו דחיפה, אחיזה, בעיטה בשחקן או נגיעת יד מכוונת בכדור.\u200F",
         },
         {
-          question: `public class Main {\n  public static void main(String[] args) {\n    for (int i = 0; i < 5; i++) {\n      System.out.println(i);\n    }\n  }\n}\n\n// Explain this code`,
+          question: "מהו כדור חופשי?\u200F",
           answer:
-            "This Java code defines a 'main' method that uses a 'for' loop to print numbers from 0 to 4 to the console.",
+            "בעיטה שמוענקת לקבוצה שנפגעה מעבירה, מהמקום שבו נעשתה העבירה.\u200F",
         },
         {
-          question: `public class ArrayExample {\n  public static void main(String[] args) {\n    int[] numbers = {1, 2, 3};\n    System.out.println(numbers[1]);\n  }\n}\n\n// Explain this code`,
+          question: "מהו כדור עונשין (פנדל)?\u200F",
           answer:
-            "This Java code defines a class 'ArrayExample' with a 'main' method that initializes an array 'numbers' and prints the element at index 1 (which is 2).",
+            "בעיטה חופשית מ־11 מטרים מהשער בעקבות עבירה בתוך רחבת העונשין.\u200F",
         },
         {
-          question: `public class Main {\n  public static void main(String[] args) {\n    String greeting = \"Hello, World!\";\n    System.out.println(greeting);\n  }\n}\n\n// Explain this code`,
+          question: "מהו נבדל?\u200F",
           answer:
-            "This Java code defines a 'main' method that initializes a string variable 'greeting' with \"Hello, World!\" and prints it to the console.",
+            "כאשר שחקן התקפה נמצא קרוב יותר לקו השער מהכדור ומהשחקן האחרון של ההגנה ברגע המסירה.\u200F",
         },
         {
-          question: `public class Main {\n  public static void main(String[] args) {\n    int result = multiply(4, 5);\n    System.out.println(result);\n  }\n\n  public static int multiply(int a, int b) {\n    return a * b;\n  }\n}\n\n// Explain this code`,
+          question: "מהי נגיחה?\u200F",
           answer:
-            "This Java code defines a 'main' method that calls a static method 'multiply' with arguments 4 and 5, and prints the result (20). The 'multiply' method returns the product of the two numbers.",
+            "שימוש בראש כדי להעביר או לבעוט בכדור, בדרך כלל במצבי גובה או קרנות.\u200F",
         },
         {
-          question: `public class Main {\n  public static void main(String[] args) {\n    boolean isTrue = (5 > 3);\n    System.out.println(isTrue);\n  }\n}\n\n// Explain this code`,
+          question: "מהו טכניקת עצירת כדור?\u200F",
           answer:
-            "This Java code defines a 'main' method that initializes a boolean variable 'isTrue' with the result of the expression (5 > 3), which evaluates to true, and prints it.",
+            "שליטה בכדור בעזרת הרגל, הירך או החזה כדי לעצור אותו ולשלוט בו.\u200F",
         },
         {
-          question: `public class Main {\n  public static void main(String[] args) {\n    int[] numbers = {1, 2, 3};\n    for (int number : numbers) {\n      System.out.println(number);\n    }\n  }\n}\n\n// Explain this code`,
+          question: "מהו תרגיל מסירה כפולה (One-Two)?\u200F",
           answer:
-            "This Java code uses an enhanced 'for' loop to iterate through an array 'numbers' and print each element.",
+            "שחקן מוסר לחבר ומיד רץ קדימה לקבל חזרה את הכדור בתנועה רציפה.\u200F",
         },
         {
-          question: `public class Main {\n  public static void main(String[] args) {\n    String[] names = {\"Alice\", \"Bob\", \"Charlie\"};\n    System.out.println(names.length);\n  }\n}\n\n// Explain this code`,
+          question: "מהי בעיטת קרן?\u200F",
           answer:
-            "This Java code initializes an array 'names' with three elements and prints the length of the array (which is 3).",
+            "כאשר הכדור יוצא מעבר לקו השער לאחר שנגע בשחקן הגנה, הקבוצה היריבה בועטת מהפינה הקרובה.\u200F",
         },
         {
-          question: `public class Main {\n  public static void main(String[] args) {\n    try {\n      int result = 10 / 0;\n    } catch (ArithmeticException e) {\n      System.out.println(\"Cannot divide by zero\");\n    }\n  }\n}\n\n// Explain this code`,
+          question: "מהי בעיטת חוץ?\u200F",
           answer:
-            "This Java code includes a 'try-catch' block to handle an 'ArithmeticException' that occurs when dividing by zero. It catches the exception and prints an error message.",
+            "כאשר הכדור יוצא מעבר לקו הצד, היריבה זוכה להחזירו למשחק בזריקה בידיים משתי הידיים מעל הראש.\u200F",
+        },
+        {
+          question: "מהו תפקיד הקשרים במגרש?\u200F",
+          answer:
+            "לשלוט בקצב המשחק, למסור בין הגנה להתקפה ולתמוך בשני הצדדים.\u200F",
+        },
+        {
+          question: "מהם תפקידי ההגנה בכדורגל?\u200F",
+          answer:
+            "למנוע מהיריב להתקרב לשער, לחסום התקפות ולשמור על מבנה אחיד מאחור.\u200F",
+        },
+        {
+          question: "מהו משחק לחץ?\u200F",
+          answer:
+            "אסטרטגיה שבה הקבוצה לוחצת על היריב קרוב לשערו כדי להכריח טעויות ולחטוף כדור מוקדם.\u200F",
+        },
+        {
+          question: "מהי תנועה ללא כדור?\u200F",
+          answer:
+            "תנועת שחקנים ללא הכדור כדי ליצור שטחים פנויים ולפתוח מסלולי מסירה.\u200F",
+        },
+        {
+          question: "מהו כדור רוחב?\u200F",
+          answer:
+            "מסירה מהאגף לכיוון מרכז הרחבה, לרוב לצורך יצירת מצב הבקעה.\u200F",
+        },
+        {
+          question: "מהם מרכיבי הכושר החשובים בכדורגל?\u200F",
+          answer: "מהירות, סבולת, כוח מתפרץ, זריזות וקואורדינציה גבוהה.\u200F",
+        },
+        {
+          question: "מהו אימון טאקטי?\u200F",
+          answer:
+            "אימון שמפתח הבנת משחק, תיאום קבוצתי ותגובה למצבים משתנים במגרש.\u200F",
+        },
+        {
+          question: "מהי חשיבות התקשורת בין השחקנים?\u200F",
+          answer:
+            "שיתוף מידע, תיאום תנועה ובניית אמון מגבירים יעילות קבוצתית וביצועים.\u200F",
+        },
+        {
+          question: "מהי חשיבות ההתאוששות באימוני כדורגל?\u200F",
+          answer:
+            "מונעת פציעות, מאפשרת שיפור ביצועים ושמירה על כושר לאורך עונה שלמה.\u200F",
+        },
+        {
+          question: "מה ההבדל בין שחקן התקפה לשחקן הגנה?\u200F",
+          answer:
+            "שחקן התקפה שואף להבקיע וליצור מצבים, שחקן הגנה מונע ספיגה ושומר על מבנה אחורי.\u200F",
+        },
+        {
+          question: "מהו משחק קבוצתי יעיל בכדורגל?\u200F",
+          answer:
+            "תנועה מתואמת, מסירות מהירות, פתיחת שטחים ושיתוף פעולה בין כל העמדות.\u200F",
         },
       ],
     },
