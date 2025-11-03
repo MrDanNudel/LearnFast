@@ -807,323 +807,294 @@ document.addEventListener("DOMContentLoaded", function () {
       ],
     },
     {
-      subject: "Java",
+      subject: "ניהול וחינוך כיתה\u200F",
       questions: [
         {
-          question: "What is Java?",
+          question: "מהו ניהול כיתה?\u200F",
           answer:
-            "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.",
+            "סט של נהלים, כללים ופרקטיקות ליצירת סביבה בטוחה, עקבית וממוקדת למידה\u200F",
         },
         {
-          question: "What is JVM?",
+          question: "מה ההבדל בין ניהול כיתה לחינוך כיתה?\u200F",
           answer:
-            "JVM (Java Virtual Machine) is an abstract machine that enables your computer to run a Java program.",
+            "ניהול כיתה עוסק בארגון והתנהגות; חינוך כיתה עוסק בערכים, אקלים כיתתי וכישורי חיים\u200F",
         },
         {
-          question: "What is JRE?",
+          question: "למה חשוב לקבוע כללים וציפיות בתחילת שנה?\u200F",
           answer:
-            "JRE (Java Runtime Environment) is a set of software tools used for developing Java applications. It includes the JVM, core libraries, and other components to run applications written in Java.",
+            "כדי ליצור עקביות, בהירות ואחריות משותפת להתנהגות וללמידה\u200F",
         },
         {
-          question: "What is JDK?",
+          question: "מהן רוטינות כיתה?\u200F",
           answer:
-            "JDK (Java Development Kit) is a software development environment used for developing Java applications and applets. It includes JRE, an interpreter/loader, a compiler, an archiver, a documentation generator, and other tools needed for Java development.",
+            "נהלים קבועים לפעולות חוזרות כגון כניסה לשיעור, מעבר בין משימות ואיסוף ציוד\u200F",
         },
         {
-          question: "What are the main features of Java?",
-          answer:
-            "The main features of Java are: Simple, Object-Oriented, Portable, Platform Independent, Secured, Robust, Multithreaded, Architecture Neutral, Interpreted, High Performance, Distributed, and Dynamic.",
+          question: "מהי אווירת כיתה חיובית?\u200F",
+          answer: "סביבה בטוחה ותומכת המקדמת שייכות, כבוד הדדי ומוטיבציה\u200F",
         },
         {
-          question: "What is a class in Java?",
+          question: "מה ההבדל בין מוטיבציה פנימית לחיצונית?\u200F",
           answer:
-            "A class is a blueprint from which individual objects are created. A class can contain fields and methods to define the behavior of an object.",
+            "פנימית נובעת מסקרנות ומשמעות; חיצונית מבוססת על תגמולים או סנקציות\u200F",
         },
         {
-          question: "What is an object in Java?",
+          question: "מהו חיזוק חיובי?\u200F",
           answer:
-            "An object is an instance of a class. It has state (fields) and behavior (methods).",
+            "מתן תגובה נעימה לאחר התנהגות רצויה כדי להגביר את שכיחותה\u200F",
         },
         {
-          question: "What is inheritance in Java?",
+          question: "כיצד מנסחים כללים יעילים?\u200F",
           answer:
-            "Inheritance is a mechanism where one class acquires the property of another class. With inheritance, we can reuse the fields and methods of the existing class.",
+            "מעט, קצר, ברור, בניסוח חיובי ומלווה בדוגמה ותיעוד גלוי בכיתה\u200F",
         },
         {
-          question: "What is polymorphism in Java?",
-          answer:
-            "Polymorphism means 'many forms'. In Java, polymorphism allows us to perform a single action in different ways. It is mainly achieved through method overloading and method overriding.",
+          question: "מה חשיבות פתיחת שיעור סדורה?\u200F",
+          answer: "כניסה מהירה ללמידה, חיסכון בזמן ומיקוד במטרות השיעור\u200F",
         },
         {
-          question: "What is encapsulation in Java?",
+          question: "מהו לוח מטרות ושגרות?\u200F",
           answer:
-            "Encapsulation is the process of wrapping code and data together into a single unit. In Java, encapsulation is achieved through the use of classes and access modifiers.",
+            "הצגה גלויה של מטרות השיעור, כללים ורוטינות לחיזוק עקביות\u200F",
         },
         {
-          question: "What is abstraction in Java?",
+          question: "כיצד סידור חלל הכיתה משפיע על למידה?\u200F",
           answer:
-            "Abstraction is the concept of hiding the complex implementation details and showing only the essential features of an object. It is achieved through abstract classes and interfaces.",
+            "משפיע על קשר עין, נגישות, שיתופיות ורמות רעש; התאמה למשימה משפרת מעורבות\u200F",
         },
         {
-          question:
-            "What is the difference between an abstract class and an interface in Java?",
+          question: "מהן מעבריות ולמה לתכנן אותן?\u200F",
           answer:
-            "An abstract class can have both abstract and concrete methods, while an interface can have only abstract methods (before Java 8). From Java 8, interfaces can have default and static methods.",
+            "מעברים בין פעילויות; תכנון מראש מצמצם זמן מת וחוסר שקט\u200F",
         },
         {
-          question: "What is a constructor in Java?",
+          question: "מהי למידה שיתופית?\u200F",
           answer:
-            "A constructor is a block of code that initializes a newly created object. It has the same name as the class and does not have a return type.",
+            "עבודה בקבוצות עם תפקידים מוגדרים ומטרה משותפת להגברת אחריות הדדית\u200F",
         },
         {
-          question: "What is method overloading in Java?",
-          answer:
-            "Method overloading is a feature that allows a class to have more than one method with the same name, but different parameters.",
+          question: "מהו דיפרנציאציה בהוראה?\u200F",
+          answer: "התאמת תוכן, תהליך ותוצר לרמות וצרכים שונים של לומדים\u200F",
         },
         {
-          question: "What is method overriding in Java?",
+          question: "מהו UDL עיצוב אוניברסלי ללמידה?\u200F",
           answer:
-            "Method overriding is a feature that allows a subclass to provide a specific implementation of a method that is already defined in its superclass.",
+            "תכנון מגוון דרכי ייצוג, עשייה ומעורבות מראש כדי לאפשר נגישות לכלל הלומדים\u200F",
         },
         {
-          question: "What is a static method in Java?",
+          question: "מהי הערכה מעצבת בכיתה?\u200F",
           answer:
-            "A static method is a method that belongs to the class rather than an instance of the class. It can be called without creating an instance of the class.",
+            "איסוף עדויות בזמן הלמידה להתאמת הוראה ומתן משוב מיידי ובר פעולה\u200F",
         },
         {
-          question: "What is 'this' keyword in Java?",
-          answer:
-            "The 'this' keyword is a reference variable that refers to the current object.",
+          question: "כיצד נותנים משוב אפקטיבי?\u200F",
+          answer: "ספציפי, בזמן, ממוקד תהליך וכולל צעד הבא לשיפור\u200F",
         },
         {
-          question: "What is 'super' keyword in Java?",
-          answer:
-            "The 'super' keyword is a reference variable that is used to refer to the immediate parent class object.",
+          question: "מהו ניהול התנהגות מניעתי?\u200F",
+          answer: "הדגמה, תרגול וכללים ברורים מראש במקום תגובה רק להפרות\u200F",
         },
         {
-          question: "What is an exception in Java?",
+          question: "כיצד להתמודד עם הפרעות קלות?\u200F",
           answer:
-            "An exception is an event that disrupts the normal flow of the program. It is an object which is thrown at runtime.",
+            "קרבה פיזית, אות לא מילולי, תזכורת לכלל והחזרה למשימה בלי להסלים\u200F",
         },
         {
-          question:
-            "What is the difference between checked and unchecked exceptions in Java?",
-          answer:
-            "Checked exceptions are checked at compile-time, while unchecked exceptions are checked at runtime. Examples of checked exceptions include IOException and SQLException. Examples of unchecked exceptions include ArithmeticException and NullPointerException.",
+          question: "מה עקרון העקביות באכיפת כללים?\u200F",
+          answer: "תגובה דומה לאותה התנהגות בכל פעם, בשקיפות וללא הטיות\u200F",
         },
         {
-          question: "What is a try-catch block in Java?",
-          answer:
-            "A try-catch block is used to handle exceptions. The code that might throw an exception is placed inside the try block, and the code to handle the exception is placed inside the catch block.",
+          question: "מהו חיזוק יחסי וקבוצתי?\u200F",
+          answer: "הוקרה אישית לצד מטרות קבוצתיות לבניית תרבות צוות\u200F",
         },
         {
-          question: "What is a finally block in Java?",
+          question: "כיצד בונים תכנית התנהגות לתלמיד?\u200F",
           answer:
-            "A finally block is used to execute important code such as closing a resource. The code inside the finally block will always be executed whether an exception is handled or not.",
+            "הגדרת מטרת התנהגות, טריגרים, אסטרטגיות תיווך ומדדי מעקב\u200F",
         },
         {
-          question: "What is a package in Java?",
+          question: "מהי שותפות עם הורים?\u200F",
           answer:
-            "A package is a namespace that organizes classes and interfaces by functionality. It helps to avoid name conflicts and to control access.",
+            "תקשורת רציפה, שקופה ומכבדת לטובת עקביות בין בית לבית ספר\u200F",
         },
         {
-          question: "What is a Java thread?",
+          question: "כיצד משלבים למידה רגשית חברתית?\u200F",
           answer:
-            "A thread is a lightweight subprocess, the smallest unit of processing. It is a separate path of execution.",
+            "הוראת כישורי ויסות, אמפתיה ופתרון בעיות כחלק מתכנית הלימודים\u200F",
         },
         {
-          question: "What is multithreading in Java?",
+          question: "מהו סדר יום כיתתי יעיל?\u200F",
           answer:
-            "Multithreading is a process of executing multiple threads simultaneously to maximize the utilization of CPU.",
+            "חלוקת זמן מאוזנת בין פתיחה, הוראה ישירה, תרגול עצמאי ושיתוף\u200F",
         },
         {
-          question: "What is synchronization in Java?",
+          question: "איך מנהלים כיתה דיגיטלית?\u200F",
           answer:
-            "Synchronization is a mechanism that ensures that two or more concurrent threads do not simultaneously execute some particular segment of the program, which can lead to unexpected results.",
+            "כללי שימוש במכשירים, פלטפורמות ברורות ומעקב אחר מעורבות מקוונת\u200F",
         },
         {
-          question:
-            "What is the difference between String, StringBuilder, and StringBuffer in Java?",
+          question: "מה עושים בעת הסלמה התנהגותית?\u200F",
           answer:
-            "String is immutable, meaning it cannot be changed once created. StringBuilder is mutable and not synchronized, making it faster. StringBuffer is mutable and synchronized, making it thread-safe but slower.",
+            "נשימה, הורדת גירויים, שיח קצר ומעבר להסדרה פרטנית לאחר היציבות\u200F",
         },
         {
-          question: "What is garbage collection in Java?",
-          answer:
-            "Garbage collection is the process by which Java programs perform automatic memory management by reclaiming memory used by objects that are no longer reachable.",
+          question: "כיצד מודדים אקלים כיתתי?\u200F",
+          answer: "סקרים קצרים, תצפיות, ניתוח נוכחות ומשוב תלמידים\u200F",
         },
         {
-          question:
-            "What is the difference between a class and an object in Java?",
+          question: "מהו רפלקציה מקצועית למורה?\u200F",
           answer:
-            "A class is a blueprint or template from which objects are created, while an object is an instance of a class.",
-        },
-        {
-          question: "What is the role of the main method in Java?",
-          answer:
-            "The main method is the entry point of any Java program. It is always written as public static void main(String[] args).",
+            "בחינת מה עבד ומה לשפר, תיעוד מסקנות ותכנון פעולה לשיעור הבא\u200F",
         },
       ],
     },
     {
-      subject: "Spring Boot",
+      subject: "אוריינות שפתית\u200F",
       questions: [
         {
-          question: "What is Spring Boot?",
+          question: "מהי אוריינות שפתית?\u200F",
           answer:
-            "Spring Boot is an open source, microservice-based framework that is used to create stand-alone, production-grade Spring-based applications with minimal configuration.",
+            "היכולת לקרוא, לכתוב, להבין, לפרש ולהשתמש בשפה לצורכי למידה, תקשורת וחשיבה.\u200F",
         },
         {
-          question: "What are the advantages of using Spring Boot?",
+          question: "מה ההבדל בין שפה מדוברת לשפה כתובה?\u200F",
           answer:
-            "Spring Boot simplifies the development of new Spring applications, reduces the amount of boilerplate code, and provides out-of-the-box configurations for various services, making it easier to create and deploy production-ready applications quickly.",
+            "שפה מדוברת מתרחשת בזמן אמת ונשענת על הקשר ושפת גוף; שפה כתובה דורשת תכנון, דיוק וכלי ניסוח.\u200F",
         },
         {
-          question: "What is the Spring Boot starter?",
+          question: "מהי מודעות פונולוגית?\u200F",
           answer:
-            "Spring Boot starters are a set of convenient dependency descriptors that you can include in your application to get a set of libraries and configurations for a specific functionality, such as web, data, or security.",
+            "היכולת לזהות, לפרק ולתמרן צלילי דיבור (הברות, עיצורים, צליל פותח/סוגר).\u200F",
         },
         {
-          question: "What is the use of the @SpringBootApplication annotation?",
+          question: "מהו קשר צליל–אות?\u200F",
           answer:
-            "The @SpringBootApplication annotation is used to mark a configuration class that declares one or more @Bean methods and triggers auto-configuration and component scanning. It is a combination of @Configuration, @EnableAutoConfiguration, and @ComponentScan annotations.",
+            "ההתאמה בין הפונמה (צליל) לגרפמה (אות) המאפשרת פענוח קריאה וכתיבה מדויקת.\u200F",
         },
         {
-          question: "How do you create a Spring Boot application?",
+          question: "מה ההבדל בין פענוח להבנה בקריאה?\u200F",
           answer:
-            "You can create a Spring Boot application using Spring Initializr (a web-based tool), Spring Boot CLI, or your favorite IDE with Spring Boot support. The process typically involves creating a new project, adding necessary dependencies, and writing the application code.",
+            "פענוח הוא תרגום סימנים כתובים לצלילים ומילים; הבנה היא בניית משמעות מהטקסט.\u200F",
         },
         {
-          question: "What is Spring Initializr?",
+          question: "מהו אוצר מילים פעיל לעומת סביל?\u200F",
           answer:
-            "Spring Initializr is a web-based tool provided by the Spring team to bootstrap a Spring Boot project with the necessary dependencies and configurations.",
+            "פעיל — מילים שהלומד משתמש בהן; סביל — מילים שהלומד מבין אך לא בהכרח מפיק.\u200F",
         },
         {
-          question: "What is an embedded server in Spring Boot?",
+          question: "מהן אסטרטגיות הבנת הנקרא בסיסיות?\u200F",
           answer:
-            "An embedded server is a server that is packaged with your Spring Boot application, allowing you to run your application as a standalone service without the need for an external server.",
+            "ניבוי, שאילת שאלות, הבהרה/תיקון, סיכום וחיבור לידע קודם.\u200F",
         },
         {
-          question:
-            "What are some common embedded servers supported by Spring Boot?",
+          question: "מהו מבנה טקסט נפוץ?\u200F",
           answer:
-            "Spring Boot supports several embedded servers, including Tomcat, Jetty, and Undertow.",
+            "סיבה–תוצאה, בעיה–פתרון, השוואה–ניגוד, רצף כרונולוגי ותיאור.\u200F",
         },
         {
-          question: "How do you configure an embedded server in Spring Boot?",
+          question: "מהו קוהרנטיות וקוהזיה בטקסט?\u200F",
           answer:
-            "You can configure an embedded server in Spring Boot using application.properties or application.yml files. You can specify server properties such as port number, context path, and other settings.",
+            "קוהרנטיות — היגיון ורצף רעיוני; קוהזיה — אמצעי קישור לשוניים (קישורים, כינויי רמז, חזרות).\u200F",
         },
         {
-          question: "What is the use of application.properties in Spring Boot?",
+          question: "מהי מורפולוגיה בעברית?\u200F",
           answer:
-            "The application.properties file is used to configure application settings and properties in a Spring Boot application. It allows you to set various configuration parameters, such as server port, database connection details, and more.",
+            "למידת בניין המילה משורשים ומשקלים, הטיות זמן/מין/מספר וסיומות דקדוקיות.\u200F",
         },
         {
-          question:
-            "What is the difference between application.properties and application.yml in Spring Boot?",
+          question: "מה תפקיד הניקוד בהתפתחות הקריאה?\u200F",
           answer:
-            "Both application.properties and application.yml are used for configuration in Spring Boot. The primary difference is the format: application.properties uses a key-value pair format, while application.yml uses YAML (YAML Ain't Markup Language) format, which is more human-readable and supports hierarchical data structures.",
+            "מסייע בפענוח מדויק בשלבים מוקדמים; בהמשך עוברים להסתמכות על ההקשר ואורתוגרפיה.\u200F",
         },
         {
-          question: "What is Spring Boot auto-configuration?",
+          question: "מהי כתיבה תהליכית?\u200F",
           answer:
-            "Spring Boot auto-configuration is a feature that automatically configures your Spring application based on the dependencies you have added. It reduces the need for manual configuration and helps to get your application up and running quickly.",
+            "מחזור של תכנון, טיוטה, משוב, שכתוב ועריכה עד להפקת טקסט בשל.\u200F",
         },
         {
-          question:
-            "What is the use of the @RestController annotation in Spring Boot?",
+          question: "מהם שלבי רכישת הכתיב התקני?\u200F",
           answer:
-            "The @RestController annotation is used to create RESTful web services in Spring Boot. It combines the @Controller and @ResponseBody annotations, allowing you to handle HTTP requests and return JSON or XML responses directly from the controller methods.",
+            "משרבוט וכתיבה פונטית מוקדמת לכתיב חלקי, ועד שליטה בדפוסים אורתוגרפיים וכללי פיסוק.\u200F",
         },
         {
-          question:
-            "What is the difference between @Controller and @RestController in Spring Boot?",
+          question: "מה ההבדל בין פיסוק לקוהזיה?\u200F",
           answer:
-            "The @Controller annotation is used to define a standard web controller that handles HTTP requests and returns a view name, while the @RestController annotation is used to create RESTful web services and returns JSON or XML responses directly.",
+            "פיסוק — סימנים המסדירים נשימה ומשפט; קוהזיה — אמצעי קישור בין משפטים ורעיונות.\u200F",
         },
         {
-          question:
-            "What is the use of the @RequestMapping annotation in Spring Boot?",
+          question: "מהי תחביר (סינטקס) וכיצד משפיע על הבנה?\u200F",
           answer:
-            "The @RequestMapping annotation is used to map HTTP requests to specific handler methods in a controller. It can be used at both the class and method levels to define the URL patterns and HTTP methods for handling requests.",
+            "כללי סידור מילים במשפט; מבנים מורכבים דורשים עיבוד לשוני עמוק להבנת כוונת הכותב.\u200F",
         },
         {
-          question:
-            "What is the use of the @GetMapping, @PostMapping, @PutMapping, and @DeleteMapping annotations in Spring Boot?",
+          question: "מהו רפרטואר ז'אנרים כתובים?\u200F",
           answer:
-            "These annotations are specialized versions of the @RequestMapping annotation. They are used to map specific HTTP methods to handler methods in a controller: @GetMapping for GET requests, @PostMapping for POST requests, @PutMapping for PUT requests, and @DeleteMapping for DELETE requests.",
+            "סיפורי, מידע, טיעון, הוראות, דיון, חקר — לכל ז'אנר מבנה ושיח אופייניים.\u200F",
         },
         {
-          question: "How do you handle exceptions in Spring Boot?",
+          question: "מהי כתיבה טיעונית טובה?\u200F",
           answer:
-            "You can handle exceptions in Spring Boot using @ExceptionHandler methods in a controller, @ControllerAdvice classes for global exception handling, and custom error pages or error attributes.",
+            "טענה ברורה, נימוקים מבוססי ראיות, דוגמאות, התייחסות לטיעוני נגד וסיכום משכנע.\u200F",
         },
         {
-          question:
-            "What is the use of the @EnableAutoConfiguration annotation in Spring Boot?",
+          question: "כיצד מלמדים סיכום טקסט?\u200F",
           answer:
-            "The @EnableAutoConfiguration annotation is used to enable Spring Boot's auto-configuration feature. It tells Spring Boot to automatically configure the application based on the dependencies and configurations available in the classpath.",
+            "זיהוי רעיון מרכזי, סינון פרטים שוליים, ניסוח במילים של הלומד ושמירה על רצף לוגי.\u200F",
         },
         {
-          question: "What is Spring Data JPA in Spring Boot?",
+          question: "מהו הסקה (אינפרנס) בקריאה?\u200F",
           answer:
-            "Spring Data JPA is a part of the Spring Data project that makes it easier to implement JPA-based repositories. It provides a set of interfaces and classes for accessing and managing relational data using the Java Persistence API (JPA).",
+            "הסקת מידע שאינו נאמר במפורש באמצעות רמזים מהטקסט והידע הקודם.\u200F",
         },
         {
-          question: "What is the use of the @Entity annotation in Spring Boot?",
+          question: "מהו רישום הערות (Annotation) יעיל?\u200F",
           answer:
-            "The @Entity annotation is used to mark a class as a JPA entity. It indicates that the class is a persistent entity that will be mapped to a database table.",
+            "סימון מילות מפתח, שאלות בצד, קידוד רעיונות וקישורים — כדי לעקוב אחרי חשיבה בזמן קריאה.\u200F",
         },
         {
-          question:
-            "What is the use of the @Repository annotation in Spring Boot?",
+          question: "מהי מודעות מטא־קוגניטיבית בקריאה?\u200F",
           answer:
-            "The @Repository annotation is used to indicate that a class is a repository, which is a mechanism for encapsulating storage, retrieval, and search behavior of objects. It is also a marker for component scanning and exception translation.",
+            "תכנון, ניטור והערכת הבנה — בחירת אסטרטגיות ותיקון כשהבנה נפגעת.\u200F",
         },
         {
-          question:
-            "What is the use of the @Service annotation in Spring Boot?",
+          question: "כיצד תומכים בלומדים רב־לשוניים?\u200F",
           answer:
-            "The @Service annotation is used to mark a class as a service layer component. It is a specialization of the @Component annotation and is used to indicate that the class contains business logic.",
+            "שימוש בשפת אם כגשר, ויזואליזציה, בניית אוצר מילים אקדמי ותמיכה תחבירית מדורגת.\u200F",
         },
         {
-          question: "What is Spring Boot Actuator?",
+          question: "מהי אוריינות דיגיטלית?\u200F",
           answer:
-            "Spring Boot Actuator is a set of built-in endpoints that provide various management and monitoring features for a Spring Boot application. It includes endpoints for health checks, metrics, application info, environment properties, and more.",
+            "איתור, הערכה ושימוש ביקורתי במידע מקוון; הבנת אמינות מקורות וניווט מדיה.\u200F",
         },
         {
-          question:
-            "What is the use of the application.yml file in Spring Boot?",
+          question: "כיצד מעריכים אוריינות שפתית?\u200F",
           answer:
-            "The application.yml file is used for configuring application settings and properties in a Spring Boot application. It uses YAML format, which is more human-readable and supports hierarchical data structures.",
+            "מדדי דיוק/שטף/הבנה בקריאה, איכות כתיבה, אוצר מילים, תחביר ושימוש מושכל באסטרטגיות.\u200F",
         },
         {
-          question:
-            "What is the use of the @Configuration annotation in Spring Boot?",
+          question: "מהם התאמות הוראה אופייניות באוריינות?\u200F",
           answer:
-            "The @Configuration annotation is used to mark a class as a source of bean definitions for the Spring IoC container. It indicates that the class can be used to define beans and configure dependencies.",
+            "טקסטים מדורגים, תומכי שפה (סקפולדינג), מודלים, תבניות כתיבה ומשוב ממוקד.\u200F",
         },
         {
-          question:
-            "What is the difference between @Component, @Service, @Repository, and @Controller in Spring Boot?",
+          question: "מה חשיבות המשוב הכתוב ללומד?\u200F",
           answer:
-            "All four annotations are used to define Spring beans, but they have different roles: @Component is a generic stereotype for any Spring-managed component, @Service indicates a service layer component, @Repository indicates a data access component, and @Controller indicates a web controller.",
+            "משוב ספציפי, בזמן, עם דוגמה וצעד הבא מקדם שיפור מדיד ומודעות לשונית.\u200F",
         },
         {
-          question: "What is Spring Boot DevTools?",
+          question: "איך מתמודדים עם מילים רב־משמעות?\u200F",
           answer:
-            "Spring Boot DevTools is a set of tools that enhance the development experience by providing features such as automatic restarts, live reload, and configurations for improved development workflow.",
+            "ניתוח הקשר, דוגמאות חלופיות, משפחת מילים ושימוש במילון/קורפוס.\u200F",
         },
         {
-          question: "How do you enable caching in Spring Boot?",
+          question: "מה תפקיד הקריאה החוזרת (Repeated Reading)?\u200F",
           answer:
-            "You can enable caching in Spring Boot by adding the @EnableCaching annotation to your main application class and using cache-related annotations such as @Cacheable, @CachePut, and @CacheEvict on your methods.",
+            "שיפור שטף, דיוק והבעה — במיוחד בשלבי רכישה מוקדמים או בטקסטים מורכבים.\u200F",
         },
         {
-          question: "What is the use of the @Bean annotation in Spring Boot?",
+          question: "מה ההבדל בין לשון דבורה ללשון אקדמית?\u200F",
           answer:
-            "The @Bean annotation is used to define a Spring bean in a @Configuration class. It indicates that a method produces a bean to be managed by the Spring container.",
+            "לשון אקדמית מדויקת, חסכונית ומובנית; דורשת אוצר מילים מופשט ומבני משפט מורכבים.\u200F",
         },
       ],
     },
