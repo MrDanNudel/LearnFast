@@ -509,241 +509,150 @@ document.addEventListener("DOMContentLoaded", function () {
       ],
     },
     {
-      subject: "JavaScript",
+      subject: "אנטומיה\u200F",
       questions: [
         {
-          question: "What is JavaScript?",
+          question: "מהי אנטומיה?\u200F",
           answer:
-            "JavaScript is a versatile programming language primarily used for creating interactive effects within web browsers.",
+            "תחום במדעי החיים העוסק במבנה הגוף ובאיבריו של האדם ושל בעלי החיים.\u200F",
         },
         {
-          question: "How do you create a variable in JavaScript?",
+          question: "מה ההבדל בין אנטומיה לפיזיולוגיה?\u200F",
           answer:
-            "You can create a variable in JavaScript using var, let, or const. For example: let myVariable = 'Hello';",
+            "אנטומיה עוסקת במבנה הגוף, בעוד שפיזיולוגיה עוסקת בתפקוד האיברים והמערכות.\u200F",
         },
         {
-          question: "What are the data types in JavaScript?",
+          question: "מהו התא?\u200F",
           answer:
-            "JavaScript has several data types including undefined, null, boolean, string, symbol, number, and object.",
+            "יחידת המבנה והתפקוד הבסיסית של כל יצור חי. בתא מתרחשות כל פעולות החיים.\u200F",
         },
         {
-          question: "What is a function in JavaScript?",
+          question: "מהם שלושת מרכיבי התא העיקריים?\u200F",
           answer:
-            "A function in JavaScript is a block of code designed to perform a particular task. It is executed when it is called (invoked).",
+            "קרום התא, ציטופלזמה וגרעין. בגרעין נמצא החומר התורשתי (DNA).\u200F",
         },
         {
-          question: "How do you create a function in JavaScript?",
+          question: "מהו רקמה?\u200F",
           answer:
-            "You can create a function using the function keyword: function myFunction() { // code to be executed }",
+            "קבוצה של תאים בעלי מבנה ותפקוד דומים הפועלים יחד למטרה משותפת.\u200F",
         },
         {
-          question: "What is the difference between == and === in JavaScript?",
+          question: "מהו איבר?\u200F",
           answer:
-            "== checks for value equality while === checks for both value and type equality.",
+            "מבנה המורכב ממספר סוגי רקמות שפועלות יחד לביצוע תפקיד מסוים בגוף.\u200F",
         },
         {
-          question: "What is an array in JavaScript?",
+          question: "מהי מערכת איברים?\u200F",
           answer:
-            "An array is a single variable that is used to store different elements. It is a collection of elements of any data type.",
+            "קבוצה של איברים העובדים יחד לביצוע תהליכים פיזיולוגיים, כמו מערכת הנשימה או העיכול.\u200F",
         },
         {
-          question: "How do you add an element to an array in JavaScript?",
-          answer:
-            "You can add an element to an array using the push() method: array.push(element);",
+          question: "מהן ארבע הרקמות העיקריות בגוף האדם?\u200F",
+          answer: "רקמת אפיתל, רקמת חיבור, רקמת שריר ורקמת עצב.\u200F",
         },
         {
-          question: "What is an object in JavaScript?",
+          question: "מה תפקידה של רקמת השריר?\u200F",
           answer:
-            "An object is a collection of properties, and a property is an association between a name (or key) and a value.",
+            "לאפשר תנועה — התכווצות והרפיה של סיבים שריריים מניעות את הגוף ואת האיברים הפנימיים.\u200F",
         },
         {
-          question: "How do you create an object in JavaScript?",
+          question: "מה תפקידה של רקמת העצבים?\u200F",
           answer:
-            "You can create an object using object literals or the new Object() syntax: let obj = {}; or let obj = new Object();",
+            "להעביר אותות חשמליים בגוף ולתאם פעולות בין איברים שונים.\u200F",
         },
         {
-          question: "What is a prototype in JavaScript?",
-          answer:
-            "A prototype is an object from which other objects inherit properties.",
+          question: "מהם שלושת סוגי השרירים בגוף האדם?\u200F",
+          answer: "שריר שלד (רצוני), שריר חלק (לא רצוני), ושריר הלב.\u200F",
         },
         {
-          question: "What is a callback function in JavaScript?",
+          question: "מה תפקידה של מערכת השלד?\u200F",
           answer:
-            "A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.",
+            "לתמוך בגוף, להגן על איברים פנימיים ולאפשר תנועה יחד עם השרירים.\u200F",
         },
         {
-          question: "What is a promise in JavaScript?",
-          answer:
-            "A promise is an object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value.",
+          question: "כמה עצמות יש בגוף האדם הבוגר?\u200F",
+          answer: "206 עצמות.\u200F",
         },
         {
-          question: "How do you create a promise in JavaScript?",
+          question: "מהם שלושת סוגי המפרקים?\u200F",
           answer:
-            "You can create a promise using the Promise constructor: let promise = new Promise(function(resolve, reject) { // executor code });",
+            "מפרק נוקשה (ללא תנועה), מפרק סחוסי (תנועה מוגבלת), ומפרק סינוביאלי (חופשי ונייד).\u200F",
         },
         {
-          question: "What are async and await in JavaScript?",
+          question: "מה תפקידה של מערכת הדם?\u200F",
           answer:
-            "Async functions are functions that return a Promise, and await is an operator used to wait for a Promise. It can only be used inside an async function.",
+            "להוביל חמצן, חומרים מזינים והורמונים לתאים ולפנות מהם פסולת.\u200F",
         },
         {
-          question: "What is the DOM in JavaScript?",
-          answer:
-            "The DOM (Document Object Model) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content.",
+          question: "מה תפקידו של הלב?\u200F",
+          answer: "לשאוב דם דרך כלי הדם ולשמור על זרימתו בכל הגוף.\u200F",
         },
         {
-          question: "How do you select an element in the DOM using JavaScript?",
+          question: "מהי מערכת הנשימה?\u200F",
           answer:
-            "You can select an element using methods like getElementById(), getElementsByClassName(), getElementsByTagName(), querySelector(), and querySelectorAll().",
+            "מערכת המספקת חמצן לגוף ומסלקת פחמן דו-חמצני. כוללת את האף, קנה הנשימה והריאות.\u200F",
         },
         {
-          question: "What is event bubbling in JavaScript?",
+          question: "מהי מערכת העיכול?\u200F",
           answer:
-            "Event bubbling is a type of event propagation where the event starts from the target element and bubbles up to the root element.",
+            "מערכת המפרקת מזון לרכיבים שהגוף יכול לספוג ולנצל. כוללת את הקיבה, הכבד, המעיים ועוד.\u200F",
         },
         {
-          question: "What is event delegation in JavaScript?",
+          question: "מהי מערכת העצבים המרכזית?\u200F",
           answer:
-            "Event delegation is a technique of using a single event listener to manage all events of a particular type, forgoing the need to attach separate listeners to each element.",
+            "מורכבת מהמוח ומחוט השדרה — אחראית על עיבוד מידע ושליטה בתפקודי הגוף.\u200F",
         },
         {
-          question:
-            "What is the difference between null and undefined in JavaScript?",
+          question: "מהי מערכת העצבים ההיקפית?\u200F",
           answer:
-            "Undefined means a variable has been declared but has not yet been assigned a value, while null is an assignment value that represents no value.",
+            "כוללת את העצבים היוצאים מהמוח ומחוט השדרה אל שאר הגוף, ומחזירה מידע תחושתי למוח.\u200F",
         },
         {
-          question: "What are closures in JavaScript?",
+          question: "מה תפקידה של מערכת ההפרשה?\u200F",
           answer:
-            "A closure is a function that remembers the environment in which it was created. This environment consists of any local variables that were in-scope at the time the closure was created.",
+            "להוציא פסולת נוזלית דרך הכליות ולשמור על איזון חומצי ומלחים בגוף.\u200F",
         },
         {
-          question: "How do you create a closure in JavaScript?",
+          question: "מהי מערכת הרבייה?\u200F",
           answer:
-            "A closure is created when a function is defined within another function and the inner function references variables from the outer function.",
+            "מערכת המאפשרת יצירת תאי מין (זרע וביצית) ורבייה של האדם.\u200F",
         },
         {
-          question: "What is the use of the 'this' keyword in JavaScript?",
+          question: "מהו המוח הגדול?\u200F",
           answer:
-            "The 'this' keyword refers to the object it belongs to. It has different values depending on where it is used: in a method, alone, in a function, in an event, etc.",
+            "החלק המרכזי של המוח האחראי על חשיבה, זיכרון, תנועה רצונית וחישה.\u200F",
         },
         {
-          question:
-            "What is the difference between call, apply, and bind in JavaScript?",
-          answer:
-            "call and apply are used to invoke functions with a specified 'this' value, while bind returns a new function with a bound 'this' value.",
+          question: "מהו המוח הקטן?\u200F",
+          answer: "אחראי על שיווי משקל, קואורדינציה ותיאום תנועות.\u200F",
         },
         {
-          question: "What is the use of the spread operator in JavaScript?",
+          question: "מהי מערכת ההורמונלית (האנדוקרינית)?\u200F",
           answer:
-            "The spread operator (...) allows an iterable such as an array or string to be expanded in places where zero or more arguments or elements are expected.",
+            "כוללת בלוטות המפרישות הורמונים לוויסות תהליכים בגוף כמו גדילה, מטבוליזם ורבייה.\u200F",
         },
         {
-          question: "What is destructuring in JavaScript?",
+          question: "מהי הומאוסטזיס?\u200F",
           answer:
-            "Destructuring is a syntax that allows you to unpack values from arrays or properties from objects into distinct variables.",
+            "יכולת הגוף לשמור על סביבה פנימית יציבה למרות שינויים חיצוניים.\u200F",
         },
         {
-          question: "What are template literals in JavaScript?",
-          answer:
-            "Template literals are string literals that allow embedded expressions, and they are enclosed by backticks (` `) instead of quotes.",
+          question: "מה תפקידה של מערכת החיסון?\u200F",
+          answer: "להגן על הגוף מפני חיידקים, וירוסים וגופים זרים אחרים.\u200F",
         },
         {
-          question: "How do you handle exceptions in JavaScript?",
-          answer:
-            "You can handle exceptions using try, catch, finally blocks: try { // code } catch (error) { // handle error } finally { // cleanup code }",
+          question: "מהם תאי דם לבנים?\u200F",
+          answer: "תאים במערכת החיסון הנלחמים בזיהומים ובגורמים מזהמים.\u200F",
         },
         {
-          question: "What is the use of the fetch API in JavaScript?",
+          question: "מהי מערכת הלימפה?\u200F",
           answer:
-            "The fetch API is used to make network requests similar to XMLHttpRequest. It returns a promise that resolves to the response of the request.",
+            "רשת של כלי לימפה ובלוטות המסייעת בהגנה חיסונית ובניקוז נוזלים מהרקמות.\u200F",
         },
         {
-          question: "What is an IIFE in JavaScript?",
+          question: "מה תפקיד העור באנטומיה של האדם?\u200F",
           answer:
-            "An IIFE (Immediately Invoked Function Expression) is a function that runs as soon as it is defined: (function() { // code })();",
-        },
-        {
-          question:
-            "What is the difference between let, var, and const in JavaScript?",
-          answer:
-            "var is function-scoped, while let and const are block-scoped. const also ensures that the variable is not reassignable.",
-        },
-        {
-          question: "What is hoisting in JavaScript?",
-          answer:
-            "Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope. Only the declarations are hoisted, not the initializations.",
-        },
-        {
-          question: "What is the event loop in JavaScript?",
-          answer:
-            "The event loop is a mechanism that continuously checks the message queue and executes tasks from it one at a time.",
-        },
-        {
-          question: "What are the different types of loops in JavaScript?",
-          answer:
-            "JavaScript supports various types of loops including for, while, do-while, for-in, and for-of loops.",
-        },
-        {
-          question: "What is a promise chain in JavaScript?",
-          answer:
-            "A promise chain is a sequence of promises where each promise returns another promise, allowing asynchronous operations to be performed in sequence.",
-        },
-        {
-          question: "What is a module in JavaScript?",
-          answer:
-            "A module is a file containing JavaScript code that is executed in its own scope, not in the global scope. Modules export values, functions, or classes that can be imported into other modules.",
-        },
-        {
-          question: "How do you export and import modules in JavaScript?",
-          answer:
-            "You can export modules using export keyword and import them using import keyword: export const myFunction = () => {}; import { myFunction } from './myModule';",
-        },
-        {
-          question:
-            "What is the difference between synchronous and asynchronous code in JavaScript?",
-          answer:
-            "Synchronous code is executed line by line, while asynchronous code allows the program to continue running while waiting for an operation to complete.",
-        },
-        {
-          question: "What is JSON and how is it used in JavaScript?",
-          answer:
-            "JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is used to exchange data between a server and a web application. JSON data can be converted to a JavaScript object using JSON.parse(), and a JavaScript object can be converted to JSON using JSON.stringify().",
-        },
-        {
-          question: "What is the use of the map method in JavaScript?",
-          answer:
-            "The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.",
-        },
-        {
-          question: "What is the use of the filter method in JavaScript?",
-          answer:
-            "The filter() method creates a new array with all elements that pass the test implemented by the provided function.",
-        },
-        {
-          question: "What is the use of the reduce method in JavaScript?",
-          answer:
-            "The reduce() method executes a reducer function on each element of the array, resulting in a single output value.",
-        },
-        {
-          question: "What is a generator function in JavaScript?",
-          answer:
-            "A generator function is a special type of function that can be paused and resumed, and it generates an iterator. It is defined using the function* syntax.",
-        },
-        {
-          question: "How do you use a generator function in JavaScript?",
-          answer:
-            "You can use a generator function by calling the function to create an iterator and using the next() method to iterate through the values: function* myGenerator() { yield 1; yield 2; } const gen = myGenerator(); gen.next().value; // 1",
-        },
-        {
-          question: "What is an arrow function in JavaScript?",
-          answer:
-            "An arrow function is a shorter syntax for a function expression and does not have its own this, arguments, super, or new.target. It is defined using the => syntax.",
-        },
-        {
-          question: "What is the use of the rest parameter in JavaScript?",
-          answer:
-            "The rest parameter syntax allows a function to accept an indefinite number of arguments as an array: function myFunction(...args) { // args is an array }",
+            "העור הוא האיבר הגדול ביותר בגוף. הוא מגן מפני חדירת מזהמים, מווסת טמפרטורה ומאפשר תחושה.\u200F",
         },
       ],
     },

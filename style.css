@@ -5,15 +5,19 @@ html {
   padding: 0;
   height: 100%;
   font-family: Arial, sans-serif;
-  background-color: #000000; /* Dark background for the entire page */
   color: #fafcff; /* Light text color for better readability */
+  background-image: url("./pic/background.jpeg");
+  background-size: cover; /* שהרקע ימלא את כל המסך */
+  background-position: left; /* שהתמונה תהיה ממורכזת */
+  background-repeat: no-repeat; /* שלא תחזור על עצמה */
+  background-attachment: fixed; /* שהרקע יישאר קבוע בגלילה */
 }
 
 /* Title Styles */
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 3.5em;
-  color: #fdfdfd; /* Light text color */
+  font-size: 2.8em;
+  color: hwb(120 99% 0%); /* Light text color */
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 20px 0 10px 0; /* Increase top margin to move it higher */
@@ -111,11 +115,11 @@ progress {
 }
 
 progress::-webkit-progress-bar {
-  background-color: #333; /* Dark background */
+  background-color: #fffaf5; /* Dark background */
 }
 
 progress::-webkit-progress-value {
-  background-color: #007bff; /* Blue progress indicator */
+  background-color: #e3ff45; /* Blue progress indicator */
   border-radius: 5px;
 }
 
@@ -192,8 +196,8 @@ input[type="radio"]:checked + label {
 
 #currentSubject {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 1.2em;
-  color: #e0e0e0; /* Light text color */
+  font-size: 4.2em;
+  color: #02556e; /* Light text color */
   margin: 10px 0;
 }
 
